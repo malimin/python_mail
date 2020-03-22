@@ -1,6 +1,7 @@
 #-*- coding:utf-8 -*-
 # Create by MaLimin
 # Create on 2020/3/22
+# 这是刚增加的内容
 
 import zmail
 import configparser
