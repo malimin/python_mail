@@ -1,0 +1,121 @@
+﻿[PMC Code v1.5.4]|||1|Window,2,Fast,0,1,Input,-1,-1,20|1|Macro1
+Groups=Start:1
+1|LogInfo|_null := "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"|1|0|Function|||||
+2|LogInfo|_null := " 【初始化】执行发送邮件。"|1|0|Function|||||
+3|LogInfo|_null := "    读取收件人邮箱。"|1|0|Function|||||
+4|FileRead|address, D:\RPA\setting\email.txt|1|0|FileRead|||||
+5|RegExReplace|address := address,"[\s]+",""|1|0|Function|||||
+6|FileRead|address_yinlian, D:\RPA\setting\email_yinlian.txt|1|0|FileRead|||||
+7|[LoopStart]|address_yinlian`, >`, |1|0|LoopParse|||||
+8|Compare Variables|A_Index = 1|1|0|If_Statement|||||
+9|[Assign Variable]|address_yinlian_one := %A_LoopField%|1|0|Variable|||||
+10|RegExReplace|address_yinlian_one := address_yinlian_one,"[\s]+",""|1|0|Function|||||
+11|[End If]|EndIf|1|0|If_Statement|||||
+12|Compare Variables|A_Index = 2|1|0|If_Statement|||||
+13|[Assign Variable]|address_yinlian_two := %A_LoopField%|1|0|Variable|||||
+14|RegExReplace|address_yinlian_two := address_yinlian_two,"[\s]+",""|1|0|Function|||||
+15|[End If]|EndIf|1|0|If_Statement|||||
+16|[LoopEnd]|LoopEnd|1|0|Loop|||||
+17|LogInfo|_null := "    收件人邮箱为：【%address%】【%address_yinlian%】"|1|0|Function|||||
+18|LogInfo|_null := "    读取需发送邮件的参数。"|1|0|Function|||||
+19|FileRead|email_data, D:\RPA\codes\rpa_code\1_setting\email_data.txt|1|0|FileRead|||||
+20|RegExReplace|email_data := email_data,"[\s]+",""|1|0|Function|||||
+21|LogInfo|_null := "    内容为：%email_data%"|1|0|Function|||||
+22|[LoopStart]|email_data`, @`, |1|0|LoopParse|||||
+23|Compare Variables|A_Index = 1|1|0|If_Statement|||||
+24|[Assign Variable]|email_type := %A_Loopfield%|1|0|Variable|||||
+25|[End If]|EndIf|1|0|If_Statement|||||
+26|Compare Variables|A_Index = 2|1|0|If_Statement|||||
+27|[Assign Variable]|email_attach := %A_Loopfield%|1|0|Variable|||||
+28|[End If]|EndIf|1|0|If_Statement|||||
+29|[LoopEnd]|LoopEnd|1|0|Loop|||||
+30|LogInfo|_null := "    读取需发送邮件附件2,执行结果记录的路径。"|1|0|Function|||||
+31|FileRead|email_attach_record, D:\RPA\codes\rpa_code\1_setting\email_data_record.txt|1|0|FileRead|||||
+32|RegExReplace|email_attach_record := email_attach_record,"[\s]+",""|1|0|Function|||||
+33|If File Exist|%email_attach_record%|1|0|If_Statement|||||
+34|LogInfo|_null := "    运行记录存在。"|1|0|Function|||||
+35|[Else]|Else|1|0|If_Statement|||||
+36|LogInfo|_null := "    运行记录不存在。"|1|0|Function|||||
+37|[Assign Variable]|email_attach_record := |1|0|Variable|||||
+38|[End If]|EndIf|1|0|If_Statement|||||
+39|LogInfo|_null := "    根据参数内容发送邮件。"|1|0|Function|||||
+40|Compare Variables|email_type == 0|1|0|If_Statement|||||
+41|LogInfo|_null := "    发送【无】数据邮件。"|1|0|Function|||||
+42|[Assign Variable]|email := 本次转换明细为【0】条，文档内容为空！|1|0|Variable|||||
+43|LogInfo|_null := "    附件为汇总整理后的txt空文本。"|1|0|Function|||||
+44|If File Exist|%email_attach%|1|0|If_Statement|||||
+45|LogInfo|_null := "    邮件附件存在。"|1|0|Function|||||
+46|[Else]|Else|1|0|If_Statement|||||
+47|LogInfo|_null := "    邮件附件不存在。"|1|0|Function|||||
+48|[Assign Variable]|email_attach := |1|0|Variable|||||
+49|[End If]|EndIf|1|0|If_Statement|||||
+50|[End If]|EndIf|1|0|If_Statement|||||
+51|Compare Variables|email_type > 0|1|0|If_Statement|||||
+52|LogInfo|_null := "    发送【有】数据邮件，条数：【%email_type%】。"|1|0|Function|||||
+53|[Assign Variable]|email := 本次转换明细为【%email_type%】条，请查收附件！|1|0|Variable|||||
+54|LogInfo|_null := "    附件为汇总整理后的txt文本。"|1|0|Function|||||
+55|If File Exist|%email_attach%|1|0|If_Statement|||||
+56|LogInfo|_null := "    邮件附件存在。"|1|0|Function|||||
+57|[Else]|Else|1|0|If_Statement|||||
+58|LogInfo|_null := "    邮件附件不存在。"|1|0|Function|||||
+59|[Assign Variable]|email_attach := |1|0|Variable|||||
+60|[End If]|EndIf|1|0|If_Statement|||||
+61|[End If]|EndIf|1|0|If_Statement|||||
+62|Compare Variables|email_type == -1|1|0|If_Statement|||||
+63|LogInfo|_null := "    发送【错误】数据邮件。"|1|0|Function|||||
+64|[Assign Variable]|email := 文件已损坏，无法完成数据转换！|1|0|Variable|||||
+65|LogInfo|_null := "    附件为本次下载的文件。"|1|0|Function|||||
+66|[Assign Variable]|email_attach := D:\RPA\download\%email_attach%\银行账户明细表.xls|1|0|Variable|||||
+067|[Assign Variable]|email_attach := D:\RPA\download\%email_attach%|1|0|Variable|||||
+068|[MsgBox]|%email_attach%|1|0|MsgBox|0||||
+069|RunWait|C:\Program Files\Bandizip\Bandizip.exe a %email_attach%.zip %email_attach%\|1|0|RunWait|||||
+070|[MsgBox]|%email_attach%|1|0|MsgBox|0||||
+071|[Assign Variable]|email_attach := %email_attach%.zip|1|0|Variable|||||
+072|[MsgBox]|%email_attach%|1|0|MsgBox|0||||
+73|If File Exist|%email_attach%|1|0|If_Statement|||||
+74|LogInfo|_null := "    邮件附件存在。"|1|0|Function|||||
+75|[Else]|Else|1|0|If_Statement|||||
+76|LogInfo|_null := "    邮件附件不存在。"|1|0|Function|||||
+77|[Assign Variable]|email_attach := |1|0|Variable|||||
+78|[End If]|EndIf|1|0|If_Statement|||||
+79|[End If]|EndIf|1|0|If_Statement|||||
+80|LogInfo|_null := " 【开始】执行发送邮件。"|1|0|Function|||||
+81|[Assign Variable]|IsSucess := 0|1|0|Variable|Expression||||
+82|[Assign Variable]|i := 0|1|0|Variable|||||
+83|LogInfo|_null := "    发送给中铁的两个附件。"|1|0|Function|||||
+84|[MsgBox]|%email_attach%|1|0|MsgBox|0||||
+85|[MsgBox]|%email_attach_record%|1|0|MsgBox|0||||
+86|[MsgBox]|%address%|1|0|MsgBox|0||||
+87|[LoopStart]|%i% < 1|1|0|While|||||
+88|[MsgBox]|进入循环|1|1|MsgBox|0||||
+89|1052163211@qq.com|【银行系统】RPA处理结果=0:%email%|1|0|SendEmail|To=%address%/CC=/BCC=|%email_attach%;%email_attach_record%|||
+090|1052163211@qq.com|【银行系统】RPA处理结果=0:这就是正文|1|0|SendEmail|To=%address%/CC=/BCC=|%email_attach%;%email_attach_record%|||
+91|[Pause]||1|5000|Sleep|||||
+92|Compare Variables|IsSucess == 1|1|0|If_Statement|||||
+93|[Assign Variable]|i := 10|1|0|Variable|||||
+94|LogInfo|_null := "    发送中铁的成功。"|1|0|Function|||||
+95|[End If]|EndIf|1|0|If_Statement|||||
+96|[LoopEnd]|LoopEnd|1|0|Loop|||||
+97|[Assign Variable]|email_attach_record := |1|0|Variable|||||
+98|[Assign Variable]|i := 0|1|0|Variable|||||
+099|LogInfo|_null := "    发送给银联的一个附件。"|1|0|Function|||||
+0100|[LoopStart]|%i% < 1|1|0|While|||||
+0101|[MsgBox]|进入循环|1|0|MsgBox|0||||
+0102|1052163211@qq.com|【银行系统】RPA处理结果=0:%email%|1|0|SendEmail|To=%address_yinlian_one%/CC=%address_yinlian_two%/BCC=|%email_attach%|||
+0103|[Pause]||1|3000|Sleep|||||
+0104|Compare Variables|IsSucess == 1|1|0|If_Statement|||||
+0105|[Assign Variable]|i := 10|1|0|Variable|||||
+0106|LogInfo|_null := "    发送银联成功。"|1|0|Function|||||
+0107|[End If]|EndIf|1|0|If_Statement|||||
+0108|[LoopEnd]|LoopEnd|1|0|Loop|||||
+0109|[MsgBox]|%IsSucess%|1|0|MsgBox|0||||
+0110|Compare Variables|email_type == -1|1|0|If_Statement|||||
+0111|FileDelete|%email_attach%|1|0|FileDelete|||||
+0112|[End If]|EndIf|1|0|If_Statement|||||
+113|LogInfo|_null := ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"|1|0|Function|||||
+
+[PMC Code v1.5.4]|||1|Window,2,Fast,0,1,Input,-1,-1,20|1|Macro2
+Groups=Start:1
+01|1052163211@qq.com|【银行系统】RPA处理结果=0:11111111111111111111111111111111|1|0|SendEmail|To=1052163211@qq.com/CC=/BCC=|%email_attach%;%email_attach_record%|||
+2|1052163211@qq.com|【银行系统】RPA处理结果=0:11111111111111111111111111111111|1|0|SendEmail|To=1052163211@qq.com/CC=/BCC=|%email_attach%;%email_attach_record%|||
+

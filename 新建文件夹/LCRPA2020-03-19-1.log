@@ -1,0 +1,2706 @@
+[2020-03-19 10:25:54.578]--------------------RPA 编辑器 启动 --------------------
+[2020-03-19 10:25:54.578]当前版本1.5.4
+[2020-03-19 10:25:55.596][DEBUG]参数 D:\RPA\codes\rpa_code\1_email\email.rpa
+
+[2020-03-19 10:25:55.663][DEBUG]文件打开:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:25:55.707][DEBUG]总代码行数:110
+[2020-03-19 10:26:46.914][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:26:50.352][DEBUG]运行宏1
+[2020-03-19 10:26:50.422]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:26:50.423] 【初始化】执行发送邮件。
+[2020-03-19 10:26:50.423]    读取收件人邮箱。
+[2020-03-19 10:26:50.426][DEBUG]运行宏1
+[2020-03-19 10:26:50.455]    收件人邮箱为：【ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:26:50.456]    读取需发送邮件的参数。
+[2020-03-19 10:26:50.457]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:26:50.458][DEBUG]运行宏1
+[2020-03-19 10:26:50.483]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:26:50.485]    运行记录存在。
+[2020-03-19 10:26:50.485]    根据参数内容发送邮件。
+[2020-03-19 10:26:50.485]    发送【无】数据邮件。
+[2020-03-19 10:26:50.486]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:26:50.486]    邮件附件存在。
+[2020-03-19 10:26:50.487] 【开始】执行发送邮件。
+[2020-03-19 10:26:50.487]    发送给中铁的两个附件。
+[2020-03-19 10:26:50.493]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:26:50.493]进行重试...
+[2020-03-19 10:26:50.495]--------------------Python模块 启动 --------------------
+[2020-03-19 10:26:50.570]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:26:50.570]发送邮件失败
+[2020-03-19 10:26:53.559][DEBUG]运行宏1
+[2020-03-19 10:26:53.584]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:26:53.584]进行重试...
+[2020-03-19 10:26:53.584]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:26:53.584]发送邮件失败
+[2020-03-19 10:26:56.578][DEBUG]运行宏1
+[2020-03-19 10:26:56.604]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:26:56.604]进行重试...
+[2020-03-19 10:26:56.604]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:26:56.604]发送邮件失败
+[2020-03-19 10:26:59.608][DEBUG]运行宏1
+[2020-03-19 10:26:59.632]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:26:59.632]进行重试...
+[2020-03-19 10:26:59.632]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:26:59.632]发送邮件失败
+[2020-03-19 10:27:02.620][DEBUG]运行宏1
+[2020-03-19 10:27:02.643]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:02.643]进行重试...
+[2020-03-19 10:27:02.643]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:02.643]发送邮件失败
+[2020-03-19 10:27:05.639][DEBUG]运行宏1
+[2020-03-19 10:27:05.674]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:05.674]进行重试...
+[2020-03-19 10:27:05.674]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:05.674]发送邮件失败
+[2020-03-19 10:27:08.674][DEBUG]运行宏1
+[2020-03-19 10:27:08.700]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:08.700]进行重试...
+[2020-03-19 10:27:08.700]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:08.700]发送邮件失败
+[2020-03-19 10:27:11.696][DEBUG]运行宏1
+[2020-03-19 10:27:11.720]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:11.720]进行重试...
+[2020-03-19 10:27:11.720]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:11.720]发送邮件失败
+[2020-03-19 10:27:14.716][DEBUG]运行宏1
+[2020-03-19 10:27:14.747]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:14.747]进行重试...
+[2020-03-19 10:27:14.748]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:14.748]发送邮件失败
+[2020-03-19 10:27:17.745][DEBUG]运行宏1
+[2020-03-19 10:27:17.779]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:17.779]进行重试...
+[2020-03-19 10:27:17.779]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:17.779]发送邮件失败
+[2020-03-19 10:27:20.778][DEBUG]运行宏1
+[2020-03-19 10:27:20.804]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:20.804]进行重试...
+[2020-03-19 10:27:20.804]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:20.804]发送邮件失败
+[2020-03-19 10:27:23.797][DEBUG]运行宏1
+[2020-03-19 10:27:23.826]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:23.826]进行重试...
+[2020-03-19 10:27:23.826]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:23.826]发送邮件失败
+[2020-03-19 10:27:26.823][DEBUG]运行宏1
+[2020-03-19 10:27:26.850]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:26.850]进行重试...
+[2020-03-19 10:27:26.850]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:26.850]发送邮件失败
+[2020-03-19 10:27:29.843][DEBUG]运行宏1
+[2020-03-19 10:27:29.871]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:29.871]进行重试...
+[2020-03-19 10:27:29.871]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:29.871]发送邮件失败
+[2020-03-19 10:27:32.871][DEBUG]运行宏1
+[2020-03-19 10:27:32.896]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:32.896]进行重试...
+[2020-03-19 10:27:32.896]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:32.896]发送邮件失败
+[2020-03-19 10:27:35.892][DEBUG]运行宏1
+[2020-03-19 10:27:35.919]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:35.919]进行重试...
+[2020-03-19 10:27:35.919]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:35.919]发送邮件失败
+[2020-03-19 10:27:38.921][DEBUG]运行宏1
+[2020-03-19 10:27:38.959]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:38.959]进行重试...
+[2020-03-19 10:27:38.960]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:38.960]发送邮件失败
+[2020-03-19 10:27:41.947][DEBUG]运行宏1
+[2020-03-19 10:27:41.972]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:41.972]进行重试...
+[2020-03-19 10:27:41.972]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:41.972]发送邮件失败
+[2020-03-19 10:27:44.963][DEBUG]运行宏1
+[2020-03-19 10:27:44.987]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:44.987]进行重试...
+[2020-03-19 10:27:44.987]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:44.987]发送邮件失败
+[2020-03-19 10:27:47.978][DEBUG]运行宏1
+[2020-03-19 10:27:48.003]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:48.003]进行重试...
+[2020-03-19 10:27:48.003]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:48.003]发送邮件失败
+[2020-03-19 10:27:50.994][DEBUG]运行宏1
+[2020-03-19 10:27:51.018]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:51.018]进行重试...
+[2020-03-19 10:27:51.018]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:51.018]发送邮件失败
+[2020-03-19 10:27:54.013][DEBUG]运行宏1
+[2020-03-19 10:27:54.037]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:54.037]进行重试...
+[2020-03-19 10:27:54.037]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:54.037]发送邮件失败
+[2020-03-19 10:27:57.031][DEBUG]运行宏1
+[2020-03-19 10:27:57.055]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:27:57.055]进行重试...
+[2020-03-19 10:27:57.055]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:27:57.055]发送邮件失败
+[2020-03-19 10:28:00.063][DEBUG]运行宏1
+[2020-03-19 10:28:00.087]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:00.087]进行重试...
+[2020-03-19 10:28:00.087]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:00.087]发送邮件失败
+[2020-03-19 10:28:03.091][DEBUG]运行宏1
+[2020-03-19 10:28:03.116]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:03.116]进行重试...
+[2020-03-19 10:28:03.116]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:03.116]发送邮件失败
+[2020-03-19 10:28:06.106][DEBUG]运行宏1
+[2020-03-19 10:28:06.130]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:06.130]进行重试...
+[2020-03-19 10:28:06.130]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:06.130]发送邮件失败
+[2020-03-19 10:28:09.119][DEBUG]运行宏1
+[2020-03-19 10:28:09.143]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:09.143]进行重试...
+[2020-03-19 10:28:09.143]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:09.143]发送邮件失败
+[2020-03-19 10:28:12.140][DEBUG]运行宏1
+[2020-03-19 10:28:12.164]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:12.164]进行重试...
+[2020-03-19 10:28:12.165]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:12.165]发送邮件失败
+[2020-03-19 10:28:15.173][DEBUG]运行宏1
+[2020-03-19 10:28:15.201]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:15.201]进行重试...
+[2020-03-19 10:28:15.202]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:15.202]发送邮件失败
+[2020-03-19 10:28:18.202][DEBUG]运行宏1
+[2020-03-19 10:28:18.226]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:18.226]进行重试...
+[2020-03-19 10:28:18.226]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:18.227]发送邮件失败
+[2020-03-19 10:28:21.234][DEBUG]运行宏1
+[2020-03-19 10:28:21.261]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:21.261]进行重试...
+[2020-03-19 10:28:21.261]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:21.261]发送邮件失败
+[2020-03-19 10:28:24.268][DEBUG]运行宏1
+[2020-03-19 10:28:24.292]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:24.292]进行重试...
+[2020-03-19 10:28:24.292]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:24.292]发送邮件失败
+[2020-03-19 10:28:27.291][DEBUG]运行宏1
+[2020-03-19 10:28:27.316]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:27.316]进行重试...
+[2020-03-19 10:28:27.316]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:27.316]发送邮件失败
+[2020-03-19 10:28:30.313][DEBUG]运行宏1
+[2020-03-19 10:28:30.338]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:30.338]进行重试...
+[2020-03-19 10:28:30.338]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:30.338]发送邮件失败
+[2020-03-19 10:28:33.346][DEBUG]运行宏1
+[2020-03-19 10:28:33.373]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;hexin4986@163.com;1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:28:33.373]进行重试...
+[2020-03-19 10:28:33.373]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:28:33.373]发送邮件失败
+[2020-03-19 10:28:36.379][DEBUG]运行结束
+[2020-03-19 10:30:07.073][DEBUG]运行宏1
+[2020-03-19 10:30:07.145]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:30:07.145] 【初始化】执行发送邮件。
+[2020-03-19 10:30:07.145]    读取收件人邮箱。
+[2020-03-19 10:30:07.148][DEBUG]运行宏1
+[2020-03-19 10:30:07.175]    收件人邮箱为：【ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:30:07.176]    读取需发送邮件的参数。
+[2020-03-19 10:30:07.177]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:30:07.178][DEBUG]运行宏1
+[2020-03-19 10:30:07.203]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:30:07.204]    运行记录存在。
+[2020-03-19 10:30:07.205]    根据参数内容发送邮件。
+[2020-03-19 10:30:07.205]    发送【无】数据邮件。
+[2020-03-19 10:30:07.205]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:30:07.206]    邮件附件存在。
+[2020-03-19 10:30:07.206] 【开始】执行发送邮件。
+[2020-03-19 10:30:07.207]    发送给中铁的两个附件。
+[2020-03-19 10:30:07.208]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:07.208]进行重试...
+[2020-03-19 10:30:07.208]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:07.208]发送邮件失败
+[2020-03-19 10:30:10.197][DEBUG]运行宏1
+[2020-03-19 10:30:10.222]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:10.222]进行重试...
+[2020-03-19 10:30:10.222]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:10.222]发送邮件失败
+[2020-03-19 10:30:13.217][DEBUG]运行宏1
+[2020-03-19 10:30:13.242]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:13.242]进行重试...
+[2020-03-19 10:30:13.242]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:13.242]发送邮件失败
+[2020-03-19 10:30:16.235][DEBUG]运行宏1
+[2020-03-19 10:30:16.259]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:16.259]进行重试...
+[2020-03-19 10:30:16.259]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:16.259]发送邮件失败
+[2020-03-19 10:30:19.263][DEBUG]运行宏1
+[2020-03-19 10:30:19.287]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:19.287]进行重试...
+[2020-03-19 10:30:19.287]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:19.287]发送邮件失败
+[2020-03-19 10:30:22.282][DEBUG]运行宏1
+[2020-03-19 10:30:22.307]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:22.307]进行重试...
+[2020-03-19 10:30:22.308]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:22.308]发送邮件失败
+[2020-03-19 10:30:25.311][DEBUG]运行宏1
+[2020-03-19 10:30:25.336]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:25.336]进行重试...
+[2020-03-19 10:30:25.337]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:25.337]发送邮件失败
+[2020-03-19 10:30:28.337][DEBUG]运行宏1
+[2020-03-19 10:30:28.360]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:28.360]进行重试...
+[2020-03-19 10:30:28.360]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:28.360]发送邮件失败
+[2020-03-19 10:30:31.360][DEBUG]运行宏1
+[2020-03-19 10:30:31.386]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:31.386]进行重试...
+[2020-03-19 10:30:31.386]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:31.386]发送邮件失败
+[2020-03-19 10:30:34.391][DEBUG]运行宏1
+[2020-03-19 10:30:34.417]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:34.417]进行重试...
+[2020-03-19 10:30:34.417]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:34.417]发送邮件失败
+[2020-03-19 10:30:37.416][DEBUG]运行宏1
+[2020-03-19 10:30:37.440]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:37.440]进行重试...
+[2020-03-19 10:30:37.440]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:37.440]发送邮件失败
+[2020-03-19 10:30:40.435][DEBUG]运行宏1
+[2020-03-19 10:30:40.463]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:40.463]进行重试...
+[2020-03-19 10:30:40.463]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:40.463]发送邮件失败
+[2020-03-19 10:30:43.469][DEBUG]运行宏1
+[2020-03-19 10:30:43.496]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:43.496]进行重试...
+[2020-03-19 10:30:43.496]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:43.496]发送邮件失败
+[2020-03-19 10:30:46.493][DEBUG]运行宏1
+[2020-03-19 10:30:46.517]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:46.517]进行重试...
+[2020-03-19 10:30:46.517]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:46.517]发送邮件失败
+[2020-03-19 10:30:49.517][DEBUG]运行宏1
+[2020-03-19 10:30:49.546]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:49.546]进行重试...
+[2020-03-19 10:30:49.546]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:49.546]发送邮件失败
+[2020-03-19 10:30:52.548][DEBUG]运行宏1
+[2020-03-19 10:30:52.575]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:52.575]进行重试...
+[2020-03-19 10:30:52.575]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:52.575]发送邮件失败
+[2020-03-19 10:30:55.576][DEBUG]运行宏1
+[2020-03-19 10:30:55.600]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:55.600]进行重试...
+[2020-03-19 10:30:55.600]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:55.600]发送邮件失败
+[2020-03-19 10:30:58.595][DEBUG]运行宏1
+[2020-03-19 10:30:58.620]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:30:58.620]进行重试...
+[2020-03-19 10:30:58.620]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:30:58.620]发送邮件失败
+[2020-03-19 10:31:01.625][DEBUG]运行宏1
+[2020-03-19 10:31:01.647]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:31:01.647]进行重试...
+[2020-03-19 10:31:01.648]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:01.648]发送邮件失败
+[2020-03-19 10:31:04.633][DEBUG]运行宏1
+[2020-03-19 10:31:04.659]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;1052163211@qq.com;>sunh0729@163.com;
+[2020-03-19 10:31:04.659]进行重试...
+[2020-03-19 10:31:04.659]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:04.659]发送邮件失败
+[2020-03-19 10:31:07.660][DEBUG]运行结束
+[2020-03-19 10:31:09.640][DEBUG]运行宏1
+[2020-03-19 10:31:09.706]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:31:09.706] 【初始化】执行发送邮件。
+[2020-03-19 10:31:09.706]    读取收件人邮箱。
+[2020-03-19 10:31:09.709][DEBUG]运行宏1
+[2020-03-19 10:31:09.738]    收件人邮箱为：【1052163211@qq.com>sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:31:09.738]    读取需发送邮件的参数。
+[2020-03-19 10:31:09.739]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:31:09.740][DEBUG]运行宏1
+[2020-03-19 10:31:09.765]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:31:09.766]    运行记录存在。
+[2020-03-19 10:31:09.766]    根据参数内容发送邮件。
+[2020-03-19 10:31:09.767]    发送【无】数据邮件。
+[2020-03-19 10:31:09.767]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:31:09.768]    邮件附件存在。
+[2020-03-19 10:31:09.768] 【开始】执行发送邮件。
+[2020-03-19 10:31:09.769]    发送给中铁的两个附件。
+[2020-03-19 10:31:09.770]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:09.770]进行重试...
+[2020-03-19 10:31:09.770]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:09.770]发送邮件失败
+[2020-03-19 10:31:12.764][DEBUG]运行宏1
+[2020-03-19 10:31:12.789]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:12.789]进行重试...
+[2020-03-19 10:31:12.790]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:12.790]发送邮件失败
+[2020-03-19 10:31:15.797][DEBUG]运行宏1
+[2020-03-19 10:31:15.833]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:15.833]进行重试...
+[2020-03-19 10:31:15.833]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:15.833]发送邮件失败
+[2020-03-19 10:31:18.830][DEBUG]运行宏1
+[2020-03-19 10:31:18.854]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:18.854]进行重试...
+[2020-03-19 10:31:18.854]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:18.854]发送邮件失败
+[2020-03-19 10:31:21.857][DEBUG]运行宏1
+[2020-03-19 10:31:21.988]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:21.988]进行重试...
+[2020-03-19 10:31:21.989]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:21.989]发送邮件失败
+[2020-03-19 10:31:24.984][DEBUG]运行宏1
+[2020-03-19 10:31:25.010]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:25.010]进行重试...
+[2020-03-19 10:31:25.010]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:25.010]发送邮件失败
+[2020-03-19 10:31:28.018][DEBUG]运行宏1
+[2020-03-19 10:31:28.044]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:28.044]进行重试...
+[2020-03-19 10:31:28.045]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:28.045]发送邮件失败
+[2020-03-19 10:31:31.043][DEBUG]运行宏1
+[2020-03-19 10:31:31.068]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com>sunh0729@163.com;
+[2020-03-19 10:31:31.068]进行重试...
+[2020-03-19 10:31:31.068]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:31:31.068]发送邮件失败
+[2020-03-19 10:31:34.066][DEBUG]运行结束
+[2020-03-19 10:32:22.523][DEBUG]运行宏1
+[2020-03-19 10:32:22.596]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:32:22.597] 【初始化】执行发送邮件。
+[2020-03-19 10:32:22.597]    读取收件人邮箱。
+[2020-03-19 10:32:22.600][DEBUG]运行宏1
+[2020-03-19 10:32:22.627]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:32:22.628]    读取需发送邮件的参数。
+[2020-03-19 10:32:22.629]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:32:22.630][DEBUG]运行宏1
+[2020-03-19 10:32:22.654]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:32:22.655]    运行记录存在。
+[2020-03-19 10:32:22.656]    根据参数内容发送邮件。
+[2020-03-19 10:32:22.656]    发送【无】数据邮件。
+[2020-03-19 10:32:22.656]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:32:22.657]    邮件附件存在。
+[2020-03-19 10:32:22.658] 【开始】执行发送邮件。
+[2020-03-19 10:32:22.658]    发送给中铁的两个附件。
+[2020-03-19 10:32:22.659]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:22.659]进行重试...
+[2020-03-19 10:32:22.659]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:22.659]发送邮件失败
+[2020-03-19 10:32:25.653][DEBUG]运行宏1
+[2020-03-19 10:32:25.677]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:25.677]进行重试...
+[2020-03-19 10:32:25.677]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:25.677]发送邮件失败
+[2020-03-19 10:32:28.671][DEBUG]运行宏1
+[2020-03-19 10:32:28.696]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:28.696]进行重试...
+[2020-03-19 10:32:28.696]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:28.696]发送邮件失败
+[2020-03-19 10:32:31.706][DEBUG]运行宏1
+[2020-03-19 10:32:31.737]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:31.737]进行重试...
+[2020-03-19 10:32:31.737]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:31.737]发送邮件失败
+[2020-03-19 10:32:34.732][DEBUG]运行宏1
+[2020-03-19 10:32:34.767]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:34.767]进行重试...
+[2020-03-19 10:32:34.767]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:34.767]发送邮件失败
+[2020-03-19 10:32:37.763][DEBUG]运行宏1
+[2020-03-19 10:32:37.794]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:37.794]进行重试...
+[2020-03-19 10:32:37.794]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:37.794]发送邮件失败
+[2020-03-19 10:32:40.796][DEBUG]运行宏1
+[2020-03-19 10:32:40.824]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:40.824]进行重试...
+[2020-03-19 10:32:40.824]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:40.824]发送邮件失败
+[2020-03-19 10:32:43.824][DEBUG]运行宏1
+[2020-03-19 10:32:43.849]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:43.849]进行重试...
+[2020-03-19 10:32:43.849]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:43.849]发送邮件失败
+[2020-03-19 10:32:46.842][DEBUG]运行宏1
+[2020-03-19 10:32:46.867]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:46.867]进行重试...
+[2020-03-19 10:32:46.867]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:46.867]发送邮件失败
+[2020-03-19 10:32:49.853][DEBUG]运行宏1
+[2020-03-19 10:32:49.879]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:49.879]进行重试...
+[2020-03-19 10:32:49.879]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:49.879]发送邮件失败
+[2020-03-19 10:32:52.877][DEBUG]运行宏1
+[2020-03-19 10:32:52.901]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:32:52.901]进行重试...
+[2020-03-19 10:32:52.902]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:32:52.902]发送邮件失败
+[2020-03-19 10:32:55.902][DEBUG]运行结束
+[2020-03-19 10:33:34.243][DEBUG]PasteRows
+[2020-03-19 10:33:34.249][DEBUG]总代码行数:111
+[2020-03-19 10:34:01.385][DEBUG]运行宏2
+[2020-03-19 10:34:01.395]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 10:34:01.395]进行重试...
+[2020-03-19 10:34:03.802]发送邮件成功
+[2020-03-19 10:34:03.804][DEBUG]运行结束
+[2020-03-19 10:34:59.866][DEBUG]总代码行数:112
+[2020-03-19 10:35:16.509][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:35:18.962][DEBUG]运行宏1
+[2020-03-19 10:35:19.003]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:35:19.003] 【初始化】执行发送邮件。
+[2020-03-19 10:35:19.003]    读取收件人邮箱。
+[2020-03-19 10:35:19.006][DEBUG]运行宏1
+[2020-03-19 10:35:19.033]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:35:19.033]    读取需发送邮件的参数。
+[2020-03-19 10:35:19.034]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:35:19.035][DEBUG]运行宏1
+[2020-03-19 10:35:19.061]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:35:19.063]    运行记录存在。
+[2020-03-19 10:35:19.063]    根据参数内容发送邮件。
+[2020-03-19 10:35:19.064]    发送【无】数据邮件。
+[2020-03-19 10:35:19.064]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:35:19.065]    邮件附件存在。
+[2020-03-19 10:35:19.065] 【开始】执行发送邮件。
+[2020-03-19 10:35:19.066]    发送给中铁的两个附件。
+[2020-03-19 10:35:34.235]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:35:34.235]进行重试...
+[2020-03-19 10:35:34.235]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:35:34.235]发送邮件失败
+[2020-03-19 10:35:37.229][DEBUG]运行结束
+[2020-03-19 10:35:50.153][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:35:51.673][DEBUG]运行宏1
+[2020-03-19 10:35:51.716]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:35:51.716] 【初始化】执行发送邮件。
+[2020-03-19 10:35:51.717]    读取收件人邮箱。
+[2020-03-19 10:35:51.719][DEBUG]运行宏1
+[2020-03-19 10:35:51.746]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:35:51.746]    读取需发送邮件的参数。
+[2020-03-19 10:35:51.747]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:35:51.748][DEBUG]运行宏1
+[2020-03-19 10:35:51.773]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:35:51.774]    运行记录存在。
+[2020-03-19 10:35:51.775]    根据参数内容发送邮件。
+[2020-03-19 10:35:51.775]    发送【无】数据邮件。
+[2020-03-19 10:35:51.776]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:35:51.776]    邮件附件存在。
+[2020-03-19 10:35:51.777] 【开始】执行发送邮件。
+[2020-03-19 10:35:51.777]    发送给中铁的两个附件。
+[2020-03-19 10:35:59.668]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:35:59.668]进行重试...
+[2020-03-19 10:35:59.668]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:35:59.668]发送邮件失败
+[2020-03-19 10:36:02.667][DEBUG]运行结束
+[2020-03-19 10:37:15.833][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:37:48.596][DEBUG]运行宏1
+[2020-03-19 10:37:48.637]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:37:48.637] 【初始化】执行发送邮件。
+[2020-03-19 10:37:48.638]    读取收件人邮箱。
+[2020-03-19 10:37:48.640][DEBUG]运行宏1
+[2020-03-19 10:37:48.667]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:37:48.667]    读取需发送邮件的参数。
+[2020-03-19 10:37:48.668]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:37:48.669][DEBUG]运行宏1
+[2020-03-19 10:37:48.695]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:37:48.697]    运行记录存在。
+[2020-03-19 10:37:48.697]    根据参数内容发送邮件。
+[2020-03-19 10:37:48.697]    发送【无】数据邮件。
+[2020-03-19 10:37:48.698]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:37:48.698]    邮件附件存在。
+[2020-03-19 10:37:48.699] 【开始】执行发送邮件。
+[2020-03-19 10:37:48.700]    发送给中铁的两个附件。
+[2020-03-19 10:37:50.682]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 10:37:50.682]进行重试...
+[2020-03-19 10:37:53.655]发送邮件成功
+[2020-03-19 10:37:56.650]    发送银联成功。
+[2020-03-19 10:37:59.142]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 10:37:59.145][DEBUG]运行结束
+[2020-03-19 10:38:11.421][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:40:40.130][DEBUG]总代码行数:113
+[2020-03-19 10:40:42.647][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:40:44.256][DEBUG]运行宏1
+[2020-03-19 10:40:44.317]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:40:44.318] 【初始化】执行发送邮件。
+[2020-03-19 10:40:44.318]    读取收件人邮箱。
+[2020-03-19 10:40:44.321][DEBUG]运行宏1
+[2020-03-19 10:40:44.348]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:40:44.348]    读取需发送邮件的参数。
+[2020-03-19 10:40:44.349]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:40:44.350][DEBUG]运行宏1
+[2020-03-19 10:40:44.374]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:40:49.198][DEBUG]运行结束
+[2020-03-19 10:41:07.476][DEBUG]PasteRows
+[2020-03-19 10:41:07.517][DEBUG]总代码行数:114
+[2020-03-19 10:41:25.176][DEBUG]运行宏1
+[2020-03-19 10:41:27.847]    运行记录存在。
+[2020-03-19 10:41:31.938][DEBUG]运行结束
+[2020-03-19 10:42:18.681][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:42:44.616][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:42:47.277][DEBUG]运行宏1
+[2020-03-19 10:42:47.350]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:42:47.350] 【初始化】执行发送邮件。
+[2020-03-19 10:42:47.351]    读取收件人邮箱。
+[2020-03-19 10:42:47.354][DEBUG]运行宏1
+[2020-03-19 10:42:47.385]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:42:47.386]    读取需发送邮件的参数。
+[2020-03-19 10:42:47.387]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:42:47.387][DEBUG]运行宏1
+[2020-03-19 10:42:47.418]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:42:50.964]    运行记录存在。
+[2020-03-19 10:42:51.612]    根据参数内容发送邮件。
+[2020-03-19 10:42:51.613]    发送【无】数据邮件。
+[2020-03-19 10:42:51.614]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:42:51.614]    邮件附件存在。
+[2020-03-19 10:42:51.616] 【开始】执行发送邮件。
+[2020-03-19 10:43:02.898][DEBUG]运行结束
+[2020-03-19 10:43:47.916][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:44:45.082][DEBUG]运行宏1
+[2020-03-19 10:44:45.149]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:44:45.149] 【初始化】执行发送邮件。
+[2020-03-19 10:44:45.149]    读取收件人邮箱。
+[2020-03-19 10:44:45.152][DEBUG]运行宏1
+[2020-03-19 10:44:45.184]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:44:45.185]    读取需发送邮件的参数。
+[2020-03-19 10:44:45.186]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:44:45.187][DEBUG]运行宏1
+[2020-03-19 10:44:45.212]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:44:46.467]    运行记录存在。
+[2020-03-19 10:44:47.043]    根据参数内容发送邮件。
+[2020-03-19 10:44:47.044]    发送【无】数据邮件。
+[2020-03-19 10:44:47.044]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:44:47.045]    邮件附件存在。
+[2020-03-19 10:44:47.046] 【开始】执行发送邮件。
+[2020-03-19 10:44:49.564][DEBUG]运行结束
+[2020-03-19 10:47:34.722][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:47:37.352][DEBUG]运行宏1
+[2020-03-19 10:47:37.425]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:47:37.426] 【初始化】执行发送邮件。
+[2020-03-19 10:47:37.426]    读取收件人邮箱。
+[2020-03-19 10:47:37.429][DEBUG]运行宏1
+[2020-03-19 10:47:37.459]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:47:37.459]    读取需发送邮件的参数。
+[2020-03-19 10:47:37.460]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:47:37.461][DEBUG]运行宏1
+[2020-03-19 10:47:37.495]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:47:38.263]    运行记录存在。
+[2020-03-19 10:47:38.669]    根据参数内容发送邮件。
+[2020-03-19 10:47:38.670]    发送【无】数据邮件。
+[2020-03-19 10:47:38.671]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:47:38.671]    邮件附件存在。
+[2020-03-19 10:47:38.673] 【开始】执行发送邮件。
+[2020-03-19 10:47:41.516]    发送给中铁的两个附件。
+[2020-03-19 10:47:44.104]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:47:44.104]进行重试...
+[2020-03-19 10:47:44.104]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:47:44.104]发送邮件失败
+[2020-03-19 10:47:47.110][DEBUG]运行宏1
+[2020-03-19 10:47:47.137]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:47:47.137]进行重试...
+[2020-03-19 10:47:47.137]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:47:47.137]发送邮件失败
+[2020-03-19 10:47:50.135][DEBUG]运行宏1
+[2020-03-19 10:47:50.161]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:47:50.161]进行重试...
+[2020-03-19 10:47:50.161]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:47:50.161]发送邮件失败
+[2020-03-19 10:47:53.150][DEBUG]运行宏1
+[2020-03-19 10:47:53.176]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:47:53.176]进行重试...
+[2020-03-19 10:47:53.176]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:47:53.176]发送邮件失败
+[2020-03-19 10:47:56.172][DEBUG]运行宏1
+[2020-03-19 10:47:56.200]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:47:56.200]进行重试...
+[2020-03-19 10:47:56.200]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:47:56.200]发送邮件失败
+[2020-03-19 10:47:59.197][DEBUG]运行宏1
+[2020-03-19 10:47:59.225]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:47:59.225]进行重试...
+[2020-03-19 10:47:59.226]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:47:59.226]发送邮件失败
+[2020-03-19 10:48:02.216][DEBUG]运行宏1
+[2020-03-19 10:48:02.263]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:02.263]进行重试...
+[2020-03-19 10:48:02.263]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:02.263]发送邮件失败
+[2020-03-19 10:48:05.262][DEBUG]运行宏1
+[2020-03-19 10:48:05.288]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:05.288]进行重试...
+[2020-03-19 10:48:05.288]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:05.288]发送邮件失败
+[2020-03-19 10:48:08.281][DEBUG]运行宏1
+[2020-03-19 10:48:08.311]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:08.311]进行重试...
+[2020-03-19 10:48:08.311]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:08.311]发送邮件失败
+[2020-03-19 10:48:11.308][DEBUG]运行宏1
+[2020-03-19 10:48:11.337]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:11.337]进行重试...
+[2020-03-19 10:48:11.337]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:11.337]发送邮件失败
+[2020-03-19 10:48:14.343][DEBUG]运行宏1
+[2020-03-19 10:48:14.370]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:14.370]进行重试...
+[2020-03-19 10:48:14.370]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:14.370]发送邮件失败
+[2020-03-19 10:48:17.375][DEBUG]运行宏1
+[2020-03-19 10:48:17.402]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:17.402]进行重试...
+[2020-03-19 10:48:17.403]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:17.403]发送邮件失败
+[2020-03-19 10:48:20.404][DEBUG]运行宏1
+[2020-03-19 10:48:20.430]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:20.430]进行重试...
+[2020-03-19 10:48:20.430]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:20.430]发送邮件失败
+[2020-03-19 10:48:23.430][DEBUG]运行宏1
+[2020-03-19 10:48:23.472]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 10:48:23.472]进行重试...
+[2020-03-19 10:48:23.472]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:23.472]发送邮件失败
+[2020-03-19 10:48:26.471][DEBUG]运行结束
+[2020-03-19 10:48:43.944][DEBUG]运行宏1
+[2020-03-19 10:48:44.020]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:48:44.021] 【初始化】执行发送邮件。
+[2020-03-19 10:48:44.021]    读取收件人邮箱。
+[2020-03-19 10:48:44.023][DEBUG]运行宏1
+[2020-03-19 10:48:44.051]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:48:44.052]    读取需发送邮件的参数。
+[2020-03-19 10:48:44.053]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:48:44.054][DEBUG]运行宏1
+[2020-03-19 10:48:44.084]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:48:45.063]    运行记录存在。
+[2020-03-19 10:48:45.515]    根据参数内容发送邮件。
+[2020-03-19 10:48:45.516]    发送【无】数据邮件。
+[2020-03-19 10:48:45.516]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:48:45.517]    邮件附件存在。
+[2020-03-19 10:48:45.518] 【开始】执行发送邮件。
+[2020-03-19 10:48:45.965]    发送给中铁的两个附件。
+[2020-03-19 10:48:46.532]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:48:46.532]进行重试...
+[2020-03-19 10:48:46.532]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:46.532]发送邮件失败
+[2020-03-19 10:48:49.529][DEBUG]运行宏1
+[2020-03-19 10:48:49.557]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:48:49.557]进行重试...
+[2020-03-19 10:48:49.557]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:49.557]发送邮件失败
+[2020-03-19 10:48:52.557][DEBUG]运行宏1
+[2020-03-19 10:48:52.582]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:48:52.582]进行重试...
+[2020-03-19 10:48:52.582]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:52.582]发送邮件失败
+[2020-03-19 10:48:55.579][DEBUG]运行宏1
+[2020-03-19 10:48:55.605]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:48:55.605]进行重试...
+[2020-03-19 10:48:55.605]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:55.605]发送邮件失败
+[2020-03-19 10:48:58.607][DEBUG]运行宏1
+[2020-03-19 10:48:58.634]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:48:58.634]进行重试...
+[2020-03-19 10:48:58.634]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:48:58.634]发送邮件失败
+[2020-03-19 10:49:01.639][DEBUG]运行宏1
+[2020-03-19 10:49:01.669]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:01.669]进行重试...
+[2020-03-19 10:49:01.669]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:01.669]发送邮件失败
+[2020-03-19 10:49:04.673][DEBUG]运行宏1
+[2020-03-19 10:49:04.700]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:04.700]进行重试...
+[2020-03-19 10:49:04.700]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:04.700]发送邮件失败
+[2020-03-19 10:49:07.697][DEBUG]运行宏1
+[2020-03-19 10:49:07.727]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:07.727]进行重试...
+[2020-03-19 10:49:07.727]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:07.727]发送邮件失败
+[2020-03-19 10:49:10.712][DEBUG]运行宏1
+[2020-03-19 10:49:10.737]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:10.737]进行重试...
+[2020-03-19 10:49:10.737]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:10.737]发送邮件失败
+[2020-03-19 10:49:13.729][DEBUG]运行宏1
+[2020-03-19 10:49:13.760]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:13.760]进行重试...
+[2020-03-19 10:49:13.760]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:13.760]发送邮件失败
+[2020-03-19 10:49:16.764][DEBUG]运行宏1
+[2020-03-19 10:49:16.790]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:16.790]进行重试...
+[2020-03-19 10:49:16.790]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:16.790]发送邮件失败
+[2020-03-19 10:49:19.791][DEBUG]运行宏1
+[2020-03-19 10:49:19.817]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:19.817]进行重试...
+[2020-03-19 10:49:19.817]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:19.817]发送邮件失败
+[2020-03-19 10:49:22.812][DEBUG]运行宏1
+[2020-03-19 10:49:22.837]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:22.837]进行重试...
+[2020-03-19 10:49:22.837]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:22.837]发送邮件失败
+[2020-03-19 10:49:25.841][DEBUG]运行宏1
+[2020-03-19 10:49:25.866]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:25.866]进行重试...
+[2020-03-19 10:49:25.866]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:25.866]发送邮件失败
+[2020-03-19 10:49:28.857][DEBUG]运行宏1
+[2020-03-19 10:49:28.886]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 10:49:28.886]进行重试...
+[2020-03-19 10:49:28.886]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail(, mail)
+[2020-03-19 10:49:28.886]发送邮件失败
+[2020-03-19 10:49:31.887][DEBUG]运行结束
+[2020-03-19 10:49:36.559][DEBUG]PasteRows
+[2020-03-19 10:49:36.600][DEBUG]总代码行数:115
+[2020-03-19 10:49:58.948][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:50:00.550][DEBUG]运行宏1
+[2020-03-19 10:50:00.610]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:50:00.610] 【初始化】执行发送邮件。
+[2020-03-19 10:50:00.611]    读取收件人邮箱。
+[2020-03-19 10:50:00.613][DEBUG]运行宏1
+[2020-03-19 10:50:00.642]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:50:00.642]    读取需发送邮件的参数。
+[2020-03-19 10:50:00.643]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:50:00.644][DEBUG]运行宏1
+[2020-03-19 10:50:00.670]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:50:01.594]    运行记录存在。
+[2020-03-19 10:50:01.971]    根据参数内容发送邮件。
+[2020-03-19 10:50:01.972]    发送【无】数据邮件。
+[2020-03-19 10:50:01.972]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:50:01.973]    邮件附件存在。
+[2020-03-19 10:50:01.974] 【开始】执行发送邮件。
+[2020-03-19 10:50:02.384]    发送给中铁的两个附件。
+[2020-03-19 10:50:02.976]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 10:50:02.976]进行重试...
+[2020-03-19 10:50:07.206]发送邮件成功
+[2020-03-19 10:50:10.236]    发送中铁的成功。
+[2020-03-19 10:50:10.237]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 10:50:10.238][DEBUG]运行结束
+[2020-03-19 10:51:40.726][DEBUG]总代码行数:114
+[2020-03-19 10:51:43.157][DEBUG]总代码行数:113
+[2020-03-19 10:54:46.207][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:54:53.959][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:54:55.514][DEBUG]运行宏1
+[2020-03-19 10:54:55.582]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:54:55.582] 【初始化】执行发送邮件。
+[2020-03-19 10:54:55.583]    读取收件人邮箱。
+[2020-03-19 10:54:55.586][DEBUG]运行宏1
+[2020-03-19 10:54:55.613]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:54:55.614]    读取需发送邮件的参数。
+[2020-03-19 10:54:55.615]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:54:55.616][DEBUG]运行宏1
+[2020-03-19 10:54:55.641]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:54:55.643]    运行记录存在。
+[2020-03-19 10:54:55.643]    根据参数内容发送邮件。
+[2020-03-19 10:54:55.643]    发送【无】数据邮件。
+[2020-03-19 10:54:55.644]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:54:55.644]    邮件附件存在。
+[2020-03-19 10:54:55.645] 【开始】执行发送邮件。
+[2020-03-19 10:54:55.645]    发送给中铁的两个附件。
+[2020-03-19 10:54:55.646]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com
+[2020-03-19 10:54:55.646]进行重试...
+[2020-03-19 10:54:56.878]发送邮件成功
+[2020-03-19 10:54:59.869]    发送中铁的成功。
+[2020-03-19 10:54:59.870]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 10:54:59.871][DEBUG]运行结束
+[2020-03-19 10:55:52.831][DEBUG]PasteRows
+[2020-03-19 10:55:52.908][DEBUG]总代码行数:114
+[2020-03-19 10:56:10.124][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:56:16.679][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:56:18.471][DEBUG]运行宏1
+[2020-03-19 10:56:18.544]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:56:18.545] 【初始化】执行发送邮件。
+[2020-03-19 10:56:18.545]    读取收件人邮箱。
+[2020-03-19 10:56:18.547][DEBUG]运行宏1
+[2020-03-19 10:56:18.576]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:56:18.577]    读取需发送邮件的参数。
+[2020-03-19 10:56:18.578]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:56:18.579][DEBUG]运行宏1
+[2020-03-19 10:56:18.604]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:56:18.605]    运行记录存在。
+[2020-03-19 10:56:18.606]    根据参数内容发送邮件。
+[2020-03-19 10:56:18.606]    发送【无】数据邮件。
+[2020-03-19 10:56:18.606]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:56:18.606]    邮件附件存在。
+[2020-03-19 10:56:18.607] 【开始】执行发送邮件。
+[2020-03-19 10:56:20.342]    发送给中铁的两个附件。
+[2020-03-19 10:56:22.544]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 10:56:22.544]进行重试...
+[2020-03-19 10:56:23.819]发送邮件成功
+[2020-03-19 10:56:26.813]    发送中铁的成功。
+[2020-03-19 10:56:26.814]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 10:56:26.815][DEBUG]运行结束
+[2020-03-19 10:57:56.166][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:57:57.689][DEBUG]运行宏1
+[2020-03-19 10:57:57.760]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:57:57.760] 【初始化】执行发送邮件。
+[2020-03-19 10:57:57.761]    读取收件人邮箱。
+[2020-03-19 10:57:57.763][DEBUG]运行宏1
+[2020-03-19 10:57:57.793]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:57:57.794]    读取需发送邮件的参数。
+[2020-03-19 10:57:57.795]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:57:57.796][DEBUG]运行宏1
+[2020-03-19 10:57:57.825]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:57:57.827]    运行记录存在。
+[2020-03-19 10:57:57.827]    根据参数内容发送邮件。
+[2020-03-19 10:57:57.828]    发送【无】数据邮件。
+[2020-03-19 10:57:57.828]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:57:57.828]    邮件附件存在。
+[2020-03-19 10:57:57.829] 【开始】执行发送邮件。
+[2020-03-19 10:57:58.795]    发送给中铁的两个附件。
+[2020-03-19 10:57:59.255]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:57:59.255]进行重试...
+[2020-03-19 10:57:59.408]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:57:59.408]发送邮件失败
+[2020-03-19 10:58:02.407][DEBUG]运行宏1
+[2020-03-19 10:58:02.433]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:02.433]进行重试...
+[2020-03-19 10:58:02.618]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:02.618]发送邮件失败
+[2020-03-19 10:58:05.625][DEBUG]运行宏1
+[2020-03-19 10:58:05.650]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:05.650]进行重试...
+[2020-03-19 10:58:05.800]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:05.800]发送邮件失败
+[2020-03-19 10:58:08.797][DEBUG]运行宏1
+[2020-03-19 10:58:08.823]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:08.823]进行重试...
+[2020-03-19 10:58:09.005]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:09.005]发送邮件失败
+[2020-03-19 10:58:12.002][DEBUG]运行宏1
+[2020-03-19 10:58:12.028]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:12.028]进行重试...
+[2020-03-19 10:58:12.184]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:12.184]发送邮件失败
+[2020-03-19 10:58:15.181][DEBUG]运行宏1
+[2020-03-19 10:58:15.207]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:15.207]进行重试...
+[2020-03-19 10:58:15.442]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:15.442]发送邮件失败
+[2020-03-19 10:58:18.433][DEBUG]运行宏1
+[2020-03-19 10:58:18.459]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:18.459]进行重试...
+[2020-03-19 10:58:18.557]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:18.557]发送邮件失败
+[2020-03-19 10:58:21.561][DEBUG]运行宏1
+[2020-03-19 10:58:21.587]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:21.587]进行重试...
+[2020-03-19 10:58:21.746]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:21.746]发送邮件失败
+[2020-03-19 10:58:24.748][DEBUG]运行宏1
+[2020-03-19 10:58:24.779]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:24.779]进行重试...
+[2020-03-19 10:58:24.913]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:24.913]发送邮件失败
+[2020-03-19 10:58:27.905][DEBUG]运行宏1
+[2020-03-19 10:58:27.934]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:27.934]进行重试...
+[2020-03-19 10:58:28.081]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:28.081]发送邮件失败
+[2020-03-19 10:58:31.076][DEBUG]运行宏1
+[2020-03-19 10:58:31.107]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:31.107]进行重试...
+[2020-03-19 10:58:31.275]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:31.275]发送邮件失败
+[2020-03-19 10:58:34.282][DEBUG]运行宏1
+[2020-03-19 10:58:34.312]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:34.312]进行重试...
+[2020-03-19 10:58:34.439]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:34.440]发送邮件失败
+[2020-03-19 10:58:37.430][DEBUG]运行宏1
+[2020-03-19 10:58:37.466]发送邮件开始, 发件人:18911411264@163.com, 收件人:1052163211@qq.com
+[2020-03-19 10:58:37.466]进行重试...
+[2020-03-19 10:58:37.574]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt','D:/RPA/record/2020-03-19/第1次执行结果统计.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 10:58:37.574]发送邮件失败
+[2020-03-19 10:58:40.584][DEBUG]运行结束
+[2020-03-19 10:59:07.699][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:59:09.491][DEBUG]运行宏1
+[2020-03-19 10:59:09.554]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:59:09.554] 【初始化】执行发送邮件。
+[2020-03-19 10:59:09.555]    读取收件人邮箱。
+[2020-03-19 10:59:09.557][DEBUG]运行宏1
+[2020-03-19 10:59:09.588]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:59:09.588]    读取需发送邮件的参数。
+[2020-03-19 10:59:09.590]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:59:09.590][DEBUG]运行宏1
+[2020-03-19 10:59:09.617]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:59:09.618]    运行记录存在。
+[2020-03-19 10:59:09.618]    根据参数内容发送邮件。
+[2020-03-19 10:59:09.619]    发送【无】数据邮件。
+[2020-03-19 10:59:09.619]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:59:09.620]    邮件附件存在。
+[2020-03-19 10:59:09.620] 【开始】执行发送邮件。
+[2020-03-19 10:59:10.647]    发送给中铁的两个附件。
+[2020-03-19 10:59:11.116]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 10:59:11.116]进行重试...
+[2020-03-19 10:59:12.195]发送邮件成功
+[2020-03-19 10:59:15.188]    发送中铁的成功。
+[2020-03-19 10:59:15.189]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 10:59:15.190][DEBUG]运行结束
+[2020-03-19 10:59:35.243][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 10:59:36.784][DEBUG]运行宏1
+[2020-03-19 10:59:36.853]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 10:59:36.854] 【初始化】执行发送邮件。
+[2020-03-19 10:59:36.854]    读取收件人邮箱。
+[2020-03-19 10:59:36.857][DEBUG]运行宏1
+[2020-03-19 10:59:36.887]    收件人邮箱为：【1052163211@qq.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 10:59:36.888]    读取需发送邮件的参数。
+[2020-03-19 10:59:36.889]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 10:59:36.890][DEBUG]运行宏1
+[2020-03-19 10:59:36.916]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 10:59:36.917]    运行记录存在。
+[2020-03-19 10:59:36.918]    根据参数内容发送邮件。
+[2020-03-19 10:59:36.918]    发送【无】数据邮件。
+[2020-03-19 10:59:36.918]    附件为汇总整理后的txt空文本。
+[2020-03-19 10:59:36.919]    邮件附件存在。
+[2020-03-19 10:59:36.920] 【开始】执行发送邮件。
+[2020-03-19 10:59:37.714]    发送给中铁的两个附件。
+[2020-03-19 10:59:38.118]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com
+[2020-03-19 10:59:38.118]进行重试...
+[2020-03-19 10:59:38.987]发送邮件成功
+[2020-03-19 10:59:41.985]    发送中铁的成功。
+[2020-03-19 10:59:41.986]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 10:59:41.987][DEBUG]运行结束
+[2020-03-19 11:01:23.782][DEBUG]PasteRows
+[2020-03-19 11:01:23.820][DEBUG]总代码行数:115
+[2020-03-19 11:01:36.059][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:01:38.611][DEBUG]运行宏1
+[2020-03-19 11:01:38.677]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:01:38.678] 【初始化】执行发送邮件。
+[2020-03-19 11:01:38.678]    读取收件人邮箱。
+[2020-03-19 11:01:38.681][DEBUG]运行宏1
+[2020-03-19 11:01:38.710]    收件人邮箱为：【ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:01:38.710]    读取需发送邮件的参数。
+[2020-03-19 11:01:38.712]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:01:38.712][DEBUG]运行宏1
+[2020-03-19 11:01:38.738]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:01:38.740]    运行记录存在。
+[2020-03-19 11:01:38.740]    根据参数内容发送邮件。
+[2020-03-19 11:01:38.741]    发送【无】数据邮件。
+[2020-03-19 11:01:38.741]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:01:38.741]    邮件附件存在。
+[2020-03-19 11:01:38.742] 【开始】执行发送邮件。
+[2020-03-19 11:01:40.125]    发送给中铁的两个附件。
+[2020-03-19 11:01:40.801]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:01:40.801]进行重试...
+[2020-03-19 11:01:40.801]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:01:40.801]发送邮件失败
+[2020-03-19 11:01:43.797][DEBUG]运行宏1
+[2020-03-19 11:01:43.822]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:01:43.822]进行重试...
+[2020-03-19 11:01:43.823]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:01:43.823]发送邮件失败
+[2020-03-19 11:01:46.823][DEBUG]运行宏1
+[2020-03-19 11:01:46.849]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:01:46.849]进行重试...
+[2020-03-19 11:01:46.849]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:01:46.849]发送邮件失败
+[2020-03-19 11:01:49.843][DEBUG]运行宏1
+[2020-03-19 11:01:49.869]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:01:49.869]进行重试...
+[2020-03-19 11:01:49.869]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:01:49.869]发送邮件失败
+[2020-03-19 11:01:52.869][DEBUG]运行宏1
+[2020-03-19 11:01:52.897]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:01:52.897]进行重试...
+[2020-03-19 11:01:52.897]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:01:52.897]发送邮件失败
+[2020-03-19 11:01:55.886][DEBUG]运行宏1
+[2020-03-19 11:01:55.913]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:01:55.913]进行重试...
+[2020-03-19 11:01:55.914]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:01:55.914]发送邮件失败
+[2020-03-19 11:01:58.906][DEBUG]运行宏1
+[2020-03-19 11:01:58.936]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:01:58.936]进行重试...
+[2020-03-19 11:01:58.937]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:01:58.937]发送邮件失败
+[2020-03-19 11:02:01.937][DEBUG]运行宏1
+[2020-03-19 11:02:01.964]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:02:01.964]进行重试...
+[2020-03-19 11:02:01.964]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:02:01.964]发送邮件失败
+[2020-03-19 11:02:04.971][DEBUG]运行宏1
+[2020-03-19 11:02:04.996]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:02:04.996]进行重试...
+[2020-03-19 11:02:04.996]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:02:04.996]发送邮件失败
+[2020-03-19 11:02:08.006][DEBUG]运行结束
+[2020-03-19 11:02:42.365][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:02:44.833][DEBUG]运行宏1
+[2020-03-19 11:02:44.901]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:02:44.901] 【初始化】执行发送邮件。
+[2020-03-19 11:02:44.902]    读取收件人邮箱。
+[2020-03-19 11:02:44.904][DEBUG]运行宏1
+[2020-03-19 11:02:44.933]    收件人邮箱为：【ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:02:44.933]    读取需发送邮件的参数。
+[2020-03-19 11:02:44.935]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:02:44.935][DEBUG]运行宏1
+[2020-03-19 11:02:44.960]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:02:44.961]    运行记录存在。
+[2020-03-19 11:02:44.961]    根据参数内容发送邮件。
+[2020-03-19 11:02:44.962]    发送【无】数据邮件。
+[2020-03-19 11:02:44.962]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:02:44.963]    邮件附件存在。
+[2020-03-19 11:02:44.963] 【开始】执行发送邮件。
+[2020-03-19 11:02:47.910]    发送给中铁的两个附件。
+[2020-03-19 11:02:48.894]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:02:48.894]进行重试...
+[2020-03-19 11:02:48.895]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:02:48.895]发送邮件失败
+[2020-03-19 11:02:51.893][DEBUG]运行宏1
+[2020-03-19 11:02:51.920]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:02:51.920]进行重试...
+[2020-03-19 11:02:51.920]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:02:51.920]发送邮件失败
+[2020-03-19 11:02:54.921][DEBUG]运行宏1
+[2020-03-19 11:02:54.946]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:02:54.946]进行重试...
+[2020-03-19 11:02:54.946]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:02:54.946]发送邮件失败
+[2020-03-19 11:02:57.946][DEBUG]运行宏1
+[2020-03-19 11:02:57.971]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:02:57.971]进行重试...
+[2020-03-19 11:02:57.971]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:02:57.971]发送邮件失败
+[2020-03-19 11:03:00.970][DEBUG]运行宏1
+[2020-03-19 11:03:00.996]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:00.996]进行重试...
+[2020-03-19 11:03:00.996]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:00.996]发送邮件失败
+[2020-03-19 11:03:03.995][DEBUG]运行宏1
+[2020-03-19 11:03:04.022]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:04.022]进行重试...
+[2020-03-19 11:03:04.022]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:04.022]发送邮件失败
+[2020-03-19 11:03:07.013][DEBUG]运行宏1
+[2020-03-19 11:03:07.059]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:07.059]进行重试...
+[2020-03-19 11:03:07.059]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:07.059]发送邮件失败
+[2020-03-19 11:03:10.055][DEBUG]运行宏1
+[2020-03-19 11:03:10.081]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:10.081]进行重试...
+[2020-03-19 11:03:10.081]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:10.081]发送邮件失败
+[2020-03-19 11:03:13.073][DEBUG]运行宏1
+[2020-03-19 11:03:13.099]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:13.099]进行重试...
+[2020-03-19 11:03:13.099]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:13.099]发送邮件失败
+[2020-03-19 11:03:16.094][DEBUG]运行宏1
+[2020-03-19 11:03:16.119]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:16.119]进行重试...
+[2020-03-19 11:03:16.120]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:16.120]发送邮件失败
+[2020-03-19 11:03:19.127][DEBUG]运行宏1
+[2020-03-19 11:03:19.152]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:19.152]进行重试...
+[2020-03-19 11:03:19.152]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:19.152]发送邮件失败
+[2020-03-19 11:03:22.157][DEBUG]运行宏1
+[2020-03-19 11:03:22.190]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:22.190]进行重试...
+[2020-03-19 11:03:22.191]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:22.191]发送邮件失败
+[2020-03-19 11:03:25.181][DEBUG]运行宏1
+[2020-03-19 11:03:25.213]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:25.213]进行重试...
+[2020-03-19 11:03:25.213]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:25.213]发送邮件失败
+[2020-03-19 11:03:28.218][DEBUG]运行宏1
+[2020-03-19 11:03:28.249]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:28.249]进行重试...
+[2020-03-19 11:03:28.249]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:28.250]发送邮件失败
+[2020-03-19 11:03:31.246][DEBUG]运行宏1
+[2020-03-19 11:03:31.272]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:31.272]进行重试...
+[2020-03-19 11:03:31.273]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:31.273]发送邮件失败
+[2020-03-19 11:03:34.264][DEBUG]运行宏1
+[2020-03-19 11:03:34.290]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:34.290]进行重试...
+[2020-03-19 11:03:34.290]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:34.290]发送邮件失败
+[2020-03-19 11:03:37.291][DEBUG]运行宏1
+[2020-03-19 11:03:37.316]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:37.316]进行重试...
+[2020-03-19 11:03:37.316]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:37.316]发送邮件失败
+[2020-03-19 11:03:40.311][DEBUG]运行宏1
+[2020-03-19 11:03:40.345]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:40.345]进行重试...
+[2020-03-19 11:03:40.346]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:40.346]发送邮件失败
+[2020-03-19 11:03:43.342][DEBUG]运行宏1
+[2020-03-19 11:03:43.367]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:03:43.367]进行重试...
+[2020-03-19 11:03:43.367]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:03:43.367]发送邮件失败
+[2020-03-19 11:03:46.360][DEBUG]运行结束
+[2020-03-19 11:04:04.491][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:04:05.976][DEBUG]运行宏1
+[2020-03-19 11:04:06.068]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:04:06.069] 【初始化】执行发送邮件。
+[2020-03-19 11:04:06.069]    读取收件人邮箱。
+[2020-03-19 11:04:06.072][DEBUG]运行宏1
+[2020-03-19 11:04:06.102]    收件人邮箱为：【ztyctn@163.com;>1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:04:06.102]    读取需发送邮件的参数。
+[2020-03-19 11:04:06.104]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:04:06.104][DEBUG]运行宏1
+[2020-03-19 11:04:06.134]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:04:06.135]    运行记录存在。
+[2020-03-19 11:04:06.136]    根据参数内容发送邮件。
+[2020-03-19 11:04:06.136]    发送【无】数据邮件。
+[2020-03-19 11:04:06.137]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:04:06.137]    邮件附件存在。
+[2020-03-19 11:04:06.138] 【开始】执行发送邮件。
+[2020-03-19 11:04:07.099]    发送给中铁的两个附件。
+[2020-03-19 11:04:07.502]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com
+[2020-03-19 11:04:07.502]进行重试...
+[2020-03-19 11:04:15.430]发送邮件成功
+[2020-03-19 11:04:18.437]    发送中铁的成功。
+[2020-03-19 11:04:18.438]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:04:18.439][DEBUG]运行结束
+[2020-03-19 11:04:40.613][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:05:05.249][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:05:31.312][DEBUG]运行宏1
+[2020-03-19 11:05:31.385]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:05:31.386] 【初始化】执行发送邮件。
+[2020-03-19 11:05:31.386]    读取收件人邮箱。
+[2020-03-19 11:05:31.389][DEBUG]运行宏1
+[2020-03-19 11:05:31.417]    收件人邮箱为：【ztyctn@163.com;1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:05:31.418]    读取需发送邮件的参数。
+[2020-03-19 11:05:31.419]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:05:31.420][DEBUG]运行宏1
+[2020-03-19 11:05:31.445]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:05:31.446]    运行记录存在。
+[2020-03-19 11:05:31.447]    根据参数内容发送邮件。
+[2020-03-19 11:05:31.447]    发送【无】数据邮件。
+[2020-03-19 11:05:31.448]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:05:31.448]    邮件附件存在。
+[2020-03-19 11:05:31.449] 【开始】执行发送邮件。
+[2020-03-19 11:05:33.060]    发送给中铁的两个附件。
+[2020-03-19 11:05:33.630]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:33.630]进行重试...
+[2020-03-19 11:05:33.631]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:33.631]发送邮件失败
+[2020-03-19 11:05:36.620][DEBUG]运行宏1
+[2020-03-19 11:05:36.645]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:36.645]进行重试...
+[2020-03-19 11:05:36.645]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:36.645]发送邮件失败
+[2020-03-19 11:05:39.641][DEBUG]运行宏1
+[2020-03-19 11:05:39.668]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:39.668]进行重试...
+[2020-03-19 11:05:39.668]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:39.668]发送邮件失败
+[2020-03-19 11:05:42.665][DEBUG]运行宏1
+[2020-03-19 11:05:42.691]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:42.691]进行重试...
+[2020-03-19 11:05:42.691]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:42.691]发送邮件失败
+[2020-03-19 11:05:45.683][DEBUG]运行宏1
+[2020-03-19 11:05:45.709]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:45.709]进行重试...
+[2020-03-19 11:05:45.709]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:45.709]发送邮件失败
+[2020-03-19 11:05:48.696][DEBUG]运行宏1
+[2020-03-19 11:05:48.721]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:48.721]进行重试...
+[2020-03-19 11:05:48.721]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:48.721]发送邮件失败
+[2020-03-19 11:05:51.714][DEBUG]运行宏1
+[2020-03-19 11:05:51.739]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:51.740]进行重试...
+[2020-03-19 11:05:51.740]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:51.740]发送邮件失败
+[2020-03-19 11:05:54.730][DEBUG]运行宏1
+[2020-03-19 11:05:54.755]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:54.755]进行重试...
+[2020-03-19 11:05:54.755]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:54.755]发送邮件失败
+[2020-03-19 11:05:57.751][DEBUG]运行宏1
+[2020-03-19 11:05:57.777]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:05:57.777]进行重试...
+[2020-03-19 11:05:57.777]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:05:57.777]发送邮件失败
+[2020-03-19 11:06:00.783][DEBUG]运行宏1
+[2020-03-19 11:06:00.808]发送邮件开始, 发件人:1052163211@qq.com, 收件人:ztyctn@163.com;
+[2020-03-19 11:06:00.808]进行重试...
+[2020-03-19 11:06:00.808]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:06:00.808]发送邮件失败
+[2020-03-19 11:06:03.815][DEBUG]运行结束
+[2020-03-19 11:06:27.641][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:06:30.353][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:06:34.921][DEBUG]运行宏1
+[2020-03-19 11:06:34.979]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:06:34.979] 【初始化】执行发送邮件。
+[2020-03-19 11:06:34.980]    读取收件人邮箱。
+[2020-03-19 11:06:34.982][DEBUG]运行宏1
+[2020-03-19 11:06:35.021]    收件人邮箱为：【ztyctn@163.com;1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:06:35.022]    读取需发送邮件的参数。
+[2020-03-19 11:06:35.023]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:06:35.024][DEBUG]运行宏1
+[2020-03-19 11:06:35.059]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:06:35.060]    运行记录存在。
+[2020-03-19 11:06:35.060]    根据参数内容发送邮件。
+[2020-03-19 11:06:35.061]    发送【无】数据邮件。
+[2020-03-19 11:06:35.061]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:06:35.062]    邮件附件存在。
+[2020-03-19 11:06:35.062] 【开始】执行发送邮件。
+[2020-03-19 11:06:35.987]    发送给中铁的两个附件。
+[2020-03-19 11:06:36.607]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:36.607]进行重试...
+[2020-03-19 11:06:36.607]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:36.607]发送邮件失败
+[2020-03-19 11:06:39.604][DEBUG]运行宏1
+[2020-03-19 11:06:39.629]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:39.629]进行重试...
+[2020-03-19 11:06:39.629]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:39.629]发送邮件失败
+[2020-03-19 11:06:42.625][DEBUG]运行宏1
+[2020-03-19 11:06:42.650]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:42.651]进行重试...
+[2020-03-19 11:06:42.651]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:42.651]发送邮件失败
+[2020-03-19 11:06:45.651][DEBUG]运行宏1
+[2020-03-19 11:06:45.677]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:45.677]进行重试...
+[2020-03-19 11:06:45.677]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:45.677]发送邮件失败
+[2020-03-19 11:06:48.675][DEBUG]运行宏1
+[2020-03-19 11:06:48.701]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:48.701]进行重试...
+[2020-03-19 11:06:48.701]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:48.701]发送邮件失败
+[2020-03-19 11:06:51.697][DEBUG]运行宏1
+[2020-03-19 11:06:51.723]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:51.723]进行重试...
+[2020-03-19 11:06:51.723]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:51.723]发送邮件失败
+[2020-03-19 11:06:54.713][DEBUG]运行宏1
+[2020-03-19 11:06:54.739]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:54.739]进行重试...
+[2020-03-19 11:06:54.739]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:54.739]发送邮件失败
+[2020-03-19 11:06:57.735][DEBUG]运行宏1
+[2020-03-19 11:06:57.761]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:06:57.761]进行重试...
+[2020-03-19 11:06:57.761]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:06:57.761]发送邮件失败
+[2020-03-19 11:07:00.765][DEBUG]运行宏1
+[2020-03-19 11:07:00.791]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:00.791]进行重试...
+[2020-03-19 11:07:00.791]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:00.791]发送邮件失败
+[2020-03-19 11:07:03.793][DEBUG]运行宏1
+[2020-03-19 11:07:03.819]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:03.819]进行重试...
+[2020-03-19 11:07:03.819]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:03.819]发送邮件失败
+[2020-03-19 11:07:06.808][DEBUG]运行宏1
+[2020-03-19 11:07:06.834]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:06.834]进行重试...
+[2020-03-19 11:07:06.834]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:06.834]发送邮件失败
+[2020-03-19 11:07:09.829][DEBUG]运行宏1
+[2020-03-19 11:07:09.855]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:09.855]进行重试...
+[2020-03-19 11:07:09.855]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:09.855]发送邮件失败
+[2020-03-19 11:07:12.861][DEBUG]运行宏1
+[2020-03-19 11:07:12.888]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:12.888]进行重试...
+[2020-03-19 11:07:12.888]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:12.888]发送邮件失败
+[2020-03-19 11:07:15.885][DEBUG]运行宏1
+[2020-03-19 11:07:15.911]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:15.911]进行重试...
+[2020-03-19 11:07:15.911]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:15.911]发送邮件失败
+[2020-03-19 11:07:18.909][DEBUG]运行宏1
+[2020-03-19 11:07:18.934]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:18.934]进行重试...
+[2020-03-19 11:07:18.934]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:18.934]发送邮件失败
+[2020-03-19 11:07:21.930][DEBUG]运行宏1
+[2020-03-19 11:07:21.955]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:21.955]进行重试...
+[2020-03-19 11:07:21.955]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:21.955]发送邮件失败
+[2020-03-19 11:07:24.948][DEBUG]运行宏1
+[2020-03-19 11:07:24.973]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:24.973]进行重试...
+[2020-03-19 11:07:24.973]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:24.973]发送邮件失败
+[2020-03-19 11:07:27.962][DEBUG]运行宏1
+[2020-03-19 11:07:27.988]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:27.988]进行重试...
+[2020-03-19 11:07:27.989]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:27.989]发送邮件失败
+[2020-03-19 11:07:30.982][DEBUG]运行宏1
+[2020-03-19 11:07:31.014]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:31.014]进行重试...
+[2020-03-19 11:07:31.014]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:31.014]发送邮件失败
+[2020-03-19 11:07:34.015][DEBUG]运行宏1
+[2020-03-19 11:07:34.040]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;sunh0729@163.com;
+[2020-03-19 11:07:34.040]进行重试...
+[2020-03-19 11:07:34.040]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:07:34.040]发送邮件失败
+[2020-03-19 11:07:37.045][DEBUG]运行结束
+[2020-03-19 11:08:18.121][DEBUG]PasteRows
+[2020-03-19 11:08:18.159][DEBUG]总代码行数:116
+[2020-03-19 11:08:35.099][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:09:18.601][DEBUG]总代码行数:118
+[2020-03-19 11:09:48.586][DEBUG]总代码行数:119
+[2020-03-19 11:09:49.750][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:10:04.581][DEBUG]PasteRows
+[2020-03-19 11:10:04.626][DEBUG]总代码行数:120
+[2020-03-19 11:10:17.195][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:10:46.586][DEBUG]总代码行数:122
+[2020-03-19 11:10:57.789][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:11:24.535][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:11:29.067][DEBUG]运行宏1
+[2020-03-19 11:11:29.134]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:11:29.134] 【初始化】执行发送邮件。
+[2020-03-19 11:11:29.135]    读取收件人邮箱。
+[2020-03-19 11:11:29.138][DEBUG]运行宏1
+[2020-03-19 11:11:29.169]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:11:29.170]    读取需发送邮件的参数。
+[2020-03-19 11:11:29.171]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:11:29.171][DEBUG]运行宏1
+[2020-03-19 11:11:29.200]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:11:29.201]    运行记录存在。
+[2020-03-19 11:11:29.201]    根据参数内容发送邮件。
+[2020-03-19 11:11:29.202]    发送【无】数据邮件。
+[2020-03-19 11:11:29.202]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:11:29.203]    邮件附件存在。
+[2020-03-19 11:11:29.203] 【开始】执行发送邮件。
+[2020-03-19 11:11:30.125]    发送给中铁的两个附件。
+[2020-03-19 11:11:30.558]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 11:11:30.558]进行重试...
+[2020-03-19 11:11:32.884]发送邮件成功
+[2020-03-19 11:11:35.886]    发送中铁的成功。
+[2020-03-19 11:11:35.887][DEBUG]运行宏1
+[2020-03-19 11:11:35.916][DEBUG]运行宏1
+[2020-03-19 11:11:35.945]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:11:35.947][DEBUG]运行结束
+[2020-03-19 11:12:44.626][DEBUG]总代码行数:123
+[2020-03-19 11:12:45.653][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:12:46.894][DEBUG]运行宏1
+[2020-03-19 11:12:46.996]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:12:46.996] 【初始化】执行发送邮件。
+[2020-03-19 11:12:46.996]    读取收件人邮箱。
+[2020-03-19 11:12:46.999][DEBUG]运行宏1
+[2020-03-19 11:12:47.029]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:12:47.030]    读取需发送邮件的参数。
+[2020-03-19 11:12:47.031]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:12:47.031][DEBUG]运行宏1
+[2020-03-19 11:12:47.059]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:12:47.060]    运行记录存在。
+[2020-03-19 11:12:47.061]    根据参数内容发送邮件。
+[2020-03-19 11:12:47.061]    发送【无】数据邮件。
+[2020-03-19 11:12:47.062]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:12:47.062]    邮件附件存在。
+[2020-03-19 11:12:47.063] 【开始】执行发送邮件。
+[2020-03-19 11:12:47.908]    发送给中铁的两个附件。
+[2020-03-19 11:12:49.539]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 11:12:49.539]进行重试...
+[2020-03-19 11:12:50.771]发送邮件成功
+[2020-03-19 11:12:53.759]    发送中铁的成功。
+[2020-03-19 11:12:53.760][DEBUG]运行宏1
+[2020-03-19 11:12:57.708][DEBUG]运行宏1
+[2020-03-19 11:13:02.842]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:13:02.850][DEBUG]运行结束
+[2020-03-19 11:13:17.586][DEBUG]PasteRows
+[2020-03-19 11:13:17.626][DEBUG]总代码行数:124
+[2020-03-19 11:13:23.162][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:13:24.456][DEBUG]运行宏1
+[2020-03-19 11:13:24.560]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:13:24.560] 【初始化】执行发送邮件。
+[2020-03-19 11:13:24.560]    读取收件人邮箱。
+[2020-03-19 11:13:24.563][DEBUG]运行宏1
+[2020-03-19 11:13:24.594]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:13:24.594]    读取需发送邮件的参数。
+[2020-03-19 11:13:24.595]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:13:24.596][DEBUG]运行宏1
+[2020-03-19 11:13:24.628]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:13:24.629]    运行记录存在。
+[2020-03-19 11:13:24.629]    根据参数内容发送邮件。
+[2020-03-19 11:13:24.630]    发送【无】数据邮件。
+[2020-03-19 11:13:24.630]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:13:24.631]    邮件附件存在。
+[2020-03-19 11:13:24.631] 【开始】执行发送邮件。
+[2020-03-19 11:13:25.336]    发送给中铁的两个附件。
+[2020-03-19 11:13:29.485]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 11:13:29.485]进行重试...
+[2020-03-19 11:13:30.795]发送邮件成功
+[2020-03-19 11:13:33.793]    发送中铁的成功。
+[2020-03-19 11:13:33.794][DEBUG]运行宏1
+[2020-03-19 11:13:35.063][DEBUG]运行宏1
+[2020-03-19 11:13:36.091]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:13:36.097][DEBUG]运行结束
+[2020-03-19 11:14:21.036][DEBUG]PasteRows
+[2020-03-19 11:14:21.078][DEBUG]总代码行数:125
+[2020-03-19 11:14:22.222][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:14:24.342][DEBUG]运行宏1
+[2020-03-19 11:14:24.476]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:14:24.476] 【初始化】执行发送邮件。
+[2020-03-19 11:14:24.477]    读取收件人邮箱。
+[2020-03-19 11:14:24.479][DEBUG]运行宏1
+[2020-03-19 11:14:24.508]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:14:24.508]    读取需发送邮件的参数。
+[2020-03-19 11:14:24.509]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:14:24.510][DEBUG]运行宏1
+[2020-03-19 11:14:24.538]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:14:24.539]    运行记录存在。
+[2020-03-19 11:14:24.540]    根据参数内容发送邮件。
+[2020-03-19 11:14:24.540]    发送【无】数据邮件。
+[2020-03-19 11:14:24.541]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:14:24.541]    邮件附件存在。
+[2020-03-19 11:14:24.542] 【开始】执行发送邮件。
+[2020-03-19 11:14:25.122]    发送给中铁的两个附件。
+[2020-03-19 11:14:27.517]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 11:14:27.517]进行重试...
+[2020-03-19 11:14:29.629]发送邮件成功
+[2020-03-19 11:14:32.618]    发送中铁的成功。
+[2020-03-19 11:14:32.619][DEBUG]运行宏1
+[2020-03-19 11:14:34.914]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com
+[2020-03-19 11:14:34.914]进行重试...
+[2020-03-19 11:14:35.864]发送邮件成功
+[2020-03-19 11:14:38.857]    发送中铁的成功。
+[2020-03-19 11:14:38.858][DEBUG]运行宏1
+[2020-03-19 11:14:40.257]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:14:40.261][DEBUG]运行结束
+[2020-03-19 11:15:02.078][DEBUG]PasteRows
+[2020-03-19 11:15:02.156][DEBUG]总代码行数:126
+[2020-03-19 11:15:10.067][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:15:30.303][DEBUG]运行宏1
+[2020-03-19 11:15:30.409]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:15:30.409] 【初始化】执行发送邮件。
+[2020-03-19 11:15:30.410]    读取收件人邮箱。
+[2020-03-19 11:15:30.412][DEBUG]运行宏1
+[2020-03-19 11:15:30.446]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:15:30.447]    读取需发送邮件的参数。
+[2020-03-19 11:15:30.448]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:15:30.449][DEBUG]运行宏1
+[2020-03-19 11:15:30.477]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:15:30.479]    运行记录存在。
+[2020-03-19 11:15:30.479]    根据参数内容发送邮件。
+[2020-03-19 11:15:30.479]    发送【无】数据邮件。
+[2020-03-19 11:15:30.480]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:15:30.480]    邮件附件存在。
+[2020-03-19 11:15:30.481] 【开始】执行发送邮件。
+[2020-03-19 11:15:31.817]    发送给中铁的两个附件。
+[2020-03-19 11:15:36.810][DEBUG]运行结束
+[2020-03-19 11:16:02.170][DEBUG]运行宏1
+[2020-03-19 11:16:02.271]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:16:02.271] 【初始化】执行发送邮件。
+[2020-03-19 11:16:02.272]    读取收件人邮箱。
+[2020-03-19 11:16:02.274][DEBUG]运行宏1
+[2020-03-19 11:16:02.317]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:16:02.318]    读取需发送邮件的参数。
+[2020-03-19 11:16:02.319]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:16:02.320][DEBUG]运行宏1
+[2020-03-19 11:16:02.358]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:16:02.359]    运行记录存在。
+[2020-03-19 11:16:02.359]    根据参数内容发送邮件。
+[2020-03-19 11:16:02.360]    发送【无】数据邮件。
+[2020-03-19 11:16:02.360]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:16:02.361]    邮件附件存在。
+[2020-03-19 11:16:02.361] 【开始】执行发送邮件。
+[2020-03-19 11:16:03.779]    发送给中铁的两个附件。
+[2020-03-19 11:16:08.190]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 11:16:08.190]进行重试...
+[2020-03-19 11:16:09.748]发送邮件成功
+[2020-03-19 11:16:12.747]    发送中铁的成功。
+[2020-03-19 11:16:12.748][DEBUG]运行宏1
+[2020-03-19 11:16:15.798]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com
+[2020-03-19 11:16:15.798]进行重试...
+[2020-03-19 11:16:17.312]发送邮件成功
+[2020-03-19 11:16:20.311]    发送中铁的成功。
+[2020-03-19 11:16:20.312][DEBUG]运行宏1
+[2020-03-19 11:16:21.206]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:16:21.215][DEBUG]运行结束
+[2020-03-19 11:16:33.604][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:18:06.492][DEBUG]总代码行数:124
+[2020-03-19 11:18:16.927][DEBUG]总代码行数:120
+[2020-03-19 11:18:24.300][DEBUG]总代码行数:116
+[2020-03-19 11:22:08.771][DEBUG]总代码行数:115
+[2020-03-19 11:22:11.531][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:22:57.308][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:23:07.748][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:23:08.965][DEBUG]运行宏1
+[2020-03-19 11:23:09.067]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:23:09.067] 【初始化】执行发送邮件。
+[2020-03-19 11:23:09.067]    读取收件人邮箱。
+[2020-03-19 11:23:09.070][DEBUG]运行宏1
+[2020-03-19 11:23:09.096]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:23:09.097]    读取需发送邮件的参数。
+[2020-03-19 11:23:09.098]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:23:09.099][DEBUG]运行宏1
+[2020-03-19 11:23:09.126]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:23:09.127]    运行记录存在。
+[2020-03-19 11:23:09.128]    根据参数内容发送邮件。
+[2020-03-19 11:23:09.128]    发送【无】数据邮件。
+[2020-03-19 11:23:09.129]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:23:09.129]    邮件附件存在。
+[2020-03-19 11:23:09.130] 【开始】执行发送邮件。
+[2020-03-19 11:23:10.054]    发送给中铁的两个附件。
+[2020-03-19 11:23:11.270]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:23:11.270]进行重试...
+[2020-03-19 11:23:11.270]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:23:11.270]发送邮件失败
+[2020-03-19 11:23:14.262][DEBUG]运行宏1
+[2020-03-19 11:23:15.430]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:23:15.430]进行重试...
+[2020-03-19 11:23:15.430]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:23:15.430]发送邮件失败
+[2020-03-19 11:23:18.432][DEBUG]运行宏1
+[2020-03-19 11:23:19.470]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:23:19.470]进行重试...
+[2020-03-19 11:23:19.470]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:23:19.470]发送邮件失败
+[2020-03-19 11:23:22.470][DEBUG]运行宏1
+[2020-03-19 11:23:23.562]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:23:23.562]进行重试...
+[2020-03-19 11:23:23.562]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:23:23.562]发送邮件失败
+[2020-03-19 11:23:26.561][DEBUG]运行宏1
+[2020-03-19 11:23:27.364]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:23:27.364]进行重试...
+[2020-03-19 11:23:27.364]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:23:27.364]发送邮件失败
+[2020-03-19 11:23:30.357][DEBUG]运行宏1
+[2020-03-19 11:23:31.528]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:23:31.528]进行重试...
+[2020-03-19 11:23:31.528]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:23:31.528]发送邮件失败
+[2020-03-19 11:23:34.531][DEBUG]运行宏1
+[2020-03-19 11:25:02.844][DEBUG]运行结束
+[2020-03-19 11:25:15.478][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:25:16.829][DEBUG]运行宏1
+[2020-03-19 11:25:16.925]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:25:16.925] 【初始化】执行发送邮件。
+[2020-03-19 11:25:16.926]    读取收件人邮箱。
+[2020-03-19 11:25:16.929][DEBUG]运行宏1
+[2020-03-19 11:25:16.957]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:25:16.958]    读取需发送邮件的参数。
+[2020-03-19 11:25:16.959]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:25:16.959][DEBUG]运行宏1
+[2020-03-19 11:25:16.985]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:25:16.986]    运行记录存在。
+[2020-03-19 11:25:16.987]    根据参数内容发送邮件。
+[2020-03-19 11:25:16.987]    发送【无】数据邮件。
+[2020-03-19 11:25:16.988]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:25:16.988]    邮件附件存在。
+[2020-03-19 11:25:16.989] 【开始】执行发送邮件。
+[2020-03-19 11:25:17.946]    发送给中铁的两个附件。
+[2020-03-19 11:25:19.211]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:25:19.211]进行重试...
+[2020-03-19 11:25:19.212]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:25:19.212]发送邮件失败
+[2020-03-19 11:25:22.221][DEBUG]运行宏1
+[2020-03-19 11:25:24.269]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:25:24.269]进行重试...
+[2020-03-19 11:25:24.269]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:25:24.269]发送邮件失败
+[2020-03-19 11:25:27.263][DEBUG]运行宏1
+[2020-03-19 11:25:28.930]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:25:28.930]进行重试...
+[2020-03-19 11:25:28.930]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:25:28.930]发送邮件失败
+[2020-03-19 11:25:31.939][DEBUG]运行宏1
+[2020-03-19 11:25:33.460]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:25:33.461]进行重试...
+[2020-03-19 11:25:33.461]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:25:33.461]发送邮件失败
+[2020-03-19 11:25:36.466][DEBUG]运行宏1
+[2020-03-19 11:25:37.377]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:25:37.377]进行重试...
+[2020-03-19 11:25:37.377]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com'])
+[2020-03-19 11:25:37.377]发送邮件失败
+[2020-03-19 11:25:40.371][DEBUG]运行宏1
+[2020-03-19 11:25:42.982][DEBUG]运行结束
+[2020-03-19 11:26:40.780][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:26:41.738][DEBUG]运行宏1
+[2020-03-19 11:26:41.786]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:26:41.786] 【初始化】执行发送邮件。
+[2020-03-19 11:26:41.786]    读取收件人邮箱。
+[2020-03-19 11:26:41.789][DEBUG]运行宏1
+[2020-03-19 11:26:41.819]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:26:41.819]    读取需发送邮件的参数。
+[2020-03-19 11:26:41.821]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:26:41.821][DEBUG]运行宏1
+[2020-03-19 11:26:41.854]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:26:41.855]    运行记录存在。
+[2020-03-19 11:26:41.856]    根据参数内容发送邮件。
+[2020-03-19 11:26:41.856]    发送【无】数据邮件。
+[2020-03-19 11:26:41.857]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:26:41.857]    邮件附件存在。
+[2020-03-19 11:26:41.858] 【开始】执行发送邮件。
+[2020-03-19 11:26:42.524]    发送给中铁的两个附件。
+[2020-03-19 11:26:44.367]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:26:44.367]进行重试...
+[2020-03-19 11:26:44.367]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:26:44.367]发送邮件失败
+[2020-03-19 11:26:47.389][DEBUG]运行宏1
+[2020-03-19 11:26:48.562]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:26:48.562]进行重试...
+[2020-03-19 11:26:48.562]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:26:48.562]发送邮件失败
+[2020-03-19 11:26:51.563][DEBUG]运行宏1
+[2020-03-19 11:26:53.038]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:26:53.038]进行重试...
+[2020-03-19 11:26:53.038]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:26:53.038]发送邮件失败
+[2020-03-19 11:26:56.047][DEBUG]运行宏1
+[2020-03-19 11:26:56.886]发送邮件开始, 发件人:18911411264@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:26:56.886]进行重试...
+[2020-03-19 11:26:56.886]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','727214561@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:26:56.886]发送邮件失败
+[2020-03-19 11:26:59.890][DEBUG]运行宏1
+[2020-03-19 11:27:01.741][DEBUG]运行结束
+[2020-03-19 11:27:25.090][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:27:26.868][DEBUG]运行宏1
+[2020-03-19 11:27:26.910]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:27:26.911] 【初始化】执行发送邮件。
+[2020-03-19 11:27:26.911]    读取收件人邮箱。
+[2020-03-19 11:27:26.914][DEBUG]运行宏1
+[2020-03-19 11:27:26.942]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:27:26.943]    读取需发送邮件的参数。
+[2020-03-19 11:27:26.944]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:27:26.945][DEBUG]运行宏1
+[2020-03-19 11:27:26.973]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:27:26.975]    运行记录存在。
+[2020-03-19 11:27:26.975]    根据参数内容发送邮件。
+[2020-03-19 11:27:26.976]    发送【无】数据邮件。
+[2020-03-19 11:27:26.976]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:27:26.976]    邮件附件存在。
+[2020-03-19 11:27:26.977] 【开始】执行发送邮件。
+[2020-03-19 11:27:27.830]    发送给中铁的两个附件。
+[2020-03-19 11:27:29.279]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:27:29.279]进行重试...
+[2020-03-19 11:27:29.419]发送邮件成功
+[2020-03-19 11:27:32.423]    发送中铁的成功。
+[2020-03-19 11:27:32.424]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:27:32.425][DEBUG]运行结束
+[2020-03-19 11:28:27.928][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:28:30.633][DEBUG]运行宏1
+[2020-03-19 11:28:30.677]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:28:30.678] 【初始化】执行发送邮件。
+[2020-03-19 11:28:30.678]    读取收件人邮箱。
+[2020-03-19 11:28:30.681][DEBUG]运行宏1
+[2020-03-19 11:28:30.710]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:28:30.710]    读取需发送邮件的参数。
+[2020-03-19 11:28:30.712]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:28:30.712][DEBUG]运行宏1
+[2020-03-19 11:28:30.740]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:28:30.741]    运行记录存在。
+[2020-03-19 11:28:30.742]    根据参数内容发送邮件。
+[2020-03-19 11:28:30.742]    发送【无】数据邮件。
+[2020-03-19 11:28:30.742]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:28:30.743]    邮件附件存在。
+[2020-03-19 11:28:30.744] 【开始】执行发送邮件。
+[2020-03-19 11:28:31.615]    发送给中铁的两个附件。
+[2020-03-19 11:28:33.074]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:28:33.074]进行重试...
+[2020-03-19 11:28:33.237]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','ztyctn@163.com','sunh0729@163.com',''])
+[2020-03-19 11:28:33.237]发送邮件失败
+[2020-03-19 11:28:36.235][DEBUG]运行宏1
+[2020-03-19 11:28:37.826]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:28:37.826]进行重试...
+[2020-03-19 11:28:41.361]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','ztyctn@163.com','sunh0729@163.com',''])
+[2020-03-19 11:28:41.361]发送邮件失败
+[2020-03-19 11:28:44.362][DEBUG]运行宏1
+[2020-03-19 11:28:45.406]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:28:45.406]进行重试...
+[2020-03-19 11:28:45.566]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','ztyctn@163.com','sunh0729@163.com',''])
+[2020-03-19 11:28:45.566]发送邮件失败
+[2020-03-19 11:28:48.559][DEBUG]运行宏1
+[2020-03-19 11:28:50.186]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:28:50.186]进行重试...
+[2020-03-19 11:28:50.343]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','ztyctn@163.com','sunh0729@163.com',''])
+[2020-03-19 11:28:50.343]发送邮件失败
+[2020-03-19 11:28:53.343][DEBUG]运行宏1
+[2020-03-19 11:28:54.305]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:28:54.305]进行重试...
+[2020-03-19 11:28:54.492]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','ztyctn@163.com','sunh0729@163.com',''])
+[2020-03-19 11:28:54.492]发送邮件失败
+[2020-03-19 11:28:57.479][DEBUG]运行宏1
+[2020-03-19 11:28:59.015][DEBUG]运行结束
+[2020-03-19 11:34:17.915][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:34:19.212][DEBUG]运行宏1
+[2020-03-19 11:34:19.259]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:34:19.259] 【初始化】执行发送邮件。
+[2020-03-19 11:34:19.260]    读取收件人邮箱。
+[2020-03-19 11:34:19.263][DEBUG]运行宏1
+[2020-03-19 11:34:19.290]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:34:19.291]    读取需发送邮件的参数。
+[2020-03-19 11:34:19.292]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:34:19.293][DEBUG]运行宏1
+[2020-03-19 11:34:19.319]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:34:19.321]    运行记录存在。
+[2020-03-19 11:34:19.321]    根据参数内容发送邮件。
+[2020-03-19 11:34:19.322]    发送【无】数据邮件。
+[2020-03-19 11:34:19.322]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:34:19.322]    邮件附件存在。
+[2020-03-19 11:34:19.323] 【开始】执行发送邮件。
+[2020-03-19 11:34:20.645]    发送给中铁的两个附件。
+[2020-03-19 11:34:25.879]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:34:25.879]进行重试...
+[2020-03-19 11:34:25.976]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:34:25.976]发送邮件失败
+[2020-03-19 11:34:28.969][DEBUG]运行宏1
+[2020-03-19 11:34:29.983]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:34:29.983]进行重试...
+[2020-03-19 11:34:30.119]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:34:30.119]发送邮件失败
+[2020-03-19 11:34:33.125][DEBUG]运行宏1
+[2020-03-19 11:34:35.539]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:34:35.539]进行重试...
+[2020-03-19 11:34:35.677]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:34:35.677]发送邮件失败
+[2020-03-19 11:34:38.671][DEBUG]运行宏1
+[2020-03-19 11:34:39.711]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:34:39.711]进行重试...
+[2020-03-19 11:34:39.843]server = zmail.server('18911411264@163.com', 'ma1052163211', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('18911411264@163.com', mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:34:39.843]发送邮件失败
+[2020-03-19 11:34:42.841][DEBUG]运行结束
+[2020-03-19 11:35:00.632][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:35:15.656][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:35:16.896][DEBUG]运行宏1
+[2020-03-19 11:35:16.941]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:35:16.941] 【初始化】执行发送邮件。
+[2020-03-19 11:35:16.942]    读取收件人邮箱。
+[2020-03-19 11:35:16.945][DEBUG]运行宏1
+[2020-03-19 11:35:16.974]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:35:16.974]    读取需发送邮件的参数。
+[2020-03-19 11:35:16.976]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:35:16.977][DEBUG]运行宏1
+[2020-03-19 11:35:17.011]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:35:17.012]    运行记录存在。
+[2020-03-19 11:35:17.013]    根据参数内容发送邮件。
+[2020-03-19 11:35:17.013]    发送【无】数据邮件。
+[2020-03-19 11:35:17.014]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:35:17.014]    邮件附件存在。
+[2020-03-19 11:35:17.015] 【开始】执行发送邮件。
+[2020-03-19 11:35:18.004]    发送给中铁的两个附件。
+[2020-03-19 11:35:19.096]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 11:35:19.096]进行重试...
+[2020-03-19 11:35:19.096]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:35:19.096]发送邮件失败
+[2020-03-19 11:35:22.093][DEBUG]运行宏1
+[2020-03-19 11:35:22.982]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 11:35:22.982]进行重试...
+[2020-03-19 11:35:22.982]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com','sunh0729@163.com',''])
+[2020-03-19 11:35:22.982]发送邮件失败
+[2020-03-19 11:35:25.979][DEBUG]运行宏1
+[2020-03-19 11:35:27.994][DEBUG]运行结束
+[2020-03-19 11:35:39.191][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:35:48.071][DEBUG]运行宏1
+[2020-03-19 11:35:48.114]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:35:48.115] 【初始化】执行发送邮件。
+[2020-03-19 11:35:48.115]    读取收件人邮箱。
+[2020-03-19 11:35:48.118][DEBUG]运行宏1
+[2020-03-19 11:35:48.147]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:35:48.147]    读取需发送邮件的参数。
+[2020-03-19 11:35:48.149]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:35:48.149][DEBUG]运行宏1
+[2020-03-19 11:35:48.178]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:35:48.179]    运行记录存在。
+[2020-03-19 11:35:48.179]    根据参数内容发送邮件。
+[2020-03-19 11:35:48.180]    发送【无】数据邮件。
+[2020-03-19 11:35:48.180]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:35:48.181]    邮件附件存在。
+[2020-03-19 11:35:48.182] 【开始】执行发送邮件。
+[2020-03-19 11:35:49.323]    发送给中铁的两个附件。
+[2020-03-19 11:35:50.893]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 11:35:50.893]进行重试...
+[2020-03-19 11:35:50.893]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['sunh0729@163.com',''])
+[2020-03-19 11:35:50.893]发送邮件失败
+[2020-03-19 11:35:53.889][DEBUG]运行宏1
+[2020-03-19 11:35:55.046]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 11:35:55.046]进行重试...
+[2020-03-19 11:35:55.046]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['sunh0729@163.com',''])
+[2020-03-19 11:35:55.046]发送邮件失败
+[2020-03-19 11:35:58.040][DEBUG]运行宏1
+[2020-03-19 11:36:00.465][DEBUG]运行结束
+[2020-03-19 11:36:11.003][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:36:21.666][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:36:23.002][DEBUG]运行宏1
+[2020-03-19 11:36:23.050]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:36:23.050] 【初始化】执行发送邮件。
+[2020-03-19 11:36:23.051]    读取收件人邮箱。
+[2020-03-19 11:36:23.053][DEBUG]运行宏1
+[2020-03-19 11:36:23.081]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:36:23.081]    读取需发送邮件的参数。
+[2020-03-19 11:36:23.083]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:36:23.083][DEBUG]运行宏1
+[2020-03-19 11:36:23.111]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:36:23.112]    运行记录存在。
+[2020-03-19 11:36:23.112]    根据参数内容发送邮件。
+[2020-03-19 11:36:23.113]    发送【无】数据邮件。
+[2020-03-19 11:36:23.113]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:36:23.113]    邮件附件存在。
+[2020-03-19 11:36:23.114] 【开始】执行发送邮件。
+[2020-03-19 11:36:23.776]    发送给中铁的两个附件。
+[2020-03-19 11:36:25.370]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 11:36:25.370]进行重试...
+[2020-03-19 11:36:25.370]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['sunh0729@163.com',''])
+[2020-03-19 11:36:25.370]发送邮件失败
+[2020-03-19 11:36:30.370][DEBUG]运行宏1
+[2020-03-19 11:36:31.630]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 11:36:31.630]进行重试...
+[2020-03-19 11:36:31.630]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['sunh0729@163.com',''])
+[2020-03-19 11:36:31.630]发送邮件失败
+[2020-03-19 11:36:36.620][DEBUG]运行宏1
+[2020-03-19 11:36:37.231]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com;
+[2020-03-19 11:36:37.231]进行重试...
+[2020-03-19 11:36:37.231]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['sunh0729@163.com',''])
+[2020-03-19 11:36:37.231]发送邮件失败
+[2020-03-19 11:36:42.230][DEBUG]运行宏1
+[2020-03-19 11:36:44.780][DEBUG]运行结束
+[2020-03-19 11:37:10.107][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:37:11.193][DEBUG]运行宏1
+[2020-03-19 11:37:11.237]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:37:11.237] 【初始化】执行发送邮件。
+[2020-03-19 11:37:11.238]    读取收件人邮箱。
+[2020-03-19 11:37:11.241][DEBUG]运行宏1
+[2020-03-19 11:37:11.270]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:37:11.271]    读取需发送邮件的参数。
+[2020-03-19 11:37:11.272]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:37:11.273][DEBUG]运行宏1
+[2020-03-19 11:37:11.303]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:37:11.304]    运行记录存在。
+[2020-03-19 11:37:11.304]    根据参数内容发送邮件。
+[2020-03-19 11:37:11.305]    发送【无】数据邮件。
+[2020-03-19 11:37:11.305]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:37:11.306]    邮件附件存在。
+[2020-03-19 11:37:11.306] 【开始】执行发送邮件。
+[2020-03-19 11:37:11.961]    发送给中铁的两个附件。
+[2020-03-19 11:37:13.542]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:37:13.542]进行重试...
+[2020-03-19 11:37:13.542]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com'])
+[2020-03-19 11:37:13.542]发送邮件失败
+[2020-03-19 11:37:18.543][DEBUG]运行宏1
+[2020-03-19 11:37:19.445]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:37:19.445]进行重试...
+[2020-03-19 11:37:19.445]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com'])
+[2020-03-19 11:37:19.446]发送邮件失败
+[2020-03-19 11:37:24.446][DEBUG]运行宏1
+[2020-03-19 11:37:25.124]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:37:25.124]进行重试...
+[2020-03-19 11:37:25.124]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail, cc=['1052163211@qq.com'])
+[2020-03-19 11:37:25.124]发送邮件失败
+[2020-03-19 11:37:30.121][DEBUG]运行宏1
+[2020-03-19 11:37:31.779][DEBUG]运行结束
+[2020-03-19 11:37:39.365][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:37:41.510][DEBUG]运行宏1
+[2020-03-19 11:37:41.592]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:37:41.593] 【初始化】执行发送邮件。
+[2020-03-19 11:37:41.593]    读取收件人邮箱。
+[2020-03-19 11:37:41.596][DEBUG]运行宏1
+[2020-03-19 11:37:41.626]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:37:41.627]    读取需发送邮件的参数。
+[2020-03-19 11:37:41.628]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:37:41.629][DEBUG]运行宏1
+[2020-03-19 11:37:41.654]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:37:41.655]    运行记录存在。
+[2020-03-19 11:37:41.656]    根据参数内容发送邮件。
+[2020-03-19 11:37:41.656]    发送【无】数据邮件。
+[2020-03-19 11:37:41.657]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:37:41.657]    邮件附件存在。
+[2020-03-19 11:37:41.658] 【开始】执行发送邮件。
+[2020-03-19 11:37:42.285]    发送给中铁的两个附件。
+[2020-03-19 11:37:43.217]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:37:43.217]进行重试...
+[2020-03-19 11:37:43.218]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:37:43.218]发送邮件失败
+[2020-03-19 11:37:48.218][DEBUG]运行宏1
+[2020-03-19 11:37:49.254]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:37:49.255]进行重试...
+[2020-03-19 11:37:49.255]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:37:49.255]发送邮件失败
+[2020-03-19 11:37:54.250][DEBUG]运行宏1
+[2020-03-19 11:37:55.508]发送邮件开始, 发件人:1052163211@qq.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:37:55.508]进行重试...
+[2020-03-19 11:37:55.508]server = zmail.server('1052163211@qq.com', 'aumisagqwyfabcaf', smtp_host='smtp.qq.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:37:55.508]发送邮件失败
+[2020-03-19 11:38:00.511][DEBUG]运行结束
+[2020-03-19 11:38:08.292][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:38:09.755][DEBUG]运行宏1
+[2020-03-19 11:38:09.806]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:38:09.806] 【初始化】执行发送邮件。
+[2020-03-19 11:38:09.806]    读取收件人邮箱。
+[2020-03-19 11:38:09.809][DEBUG]运行宏1
+[2020-03-19 11:38:09.845]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:38:09.845]    读取需发送邮件的参数。
+[2020-03-19 11:38:09.847]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:38:09.847][DEBUG]运行宏1
+[2020-03-19 11:38:09.875]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:38:09.877]    运行记录存在。
+[2020-03-19 11:38:09.877]    根据参数内容发送邮件。
+[2020-03-19 11:38:09.877]    发送【无】数据邮件。
+[2020-03-19 11:38:09.878]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:38:09.878]    邮件附件存在。
+[2020-03-19 11:38:09.879] 【开始】执行发送邮件。
+[2020-03-19 11:38:10.601]    发送给中铁的两个附件。
+[2020-03-19 11:38:11.453]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:sunh0729@163.com;
+[2020-03-19 11:38:11.453]进行重试...
+[2020-03-19 11:38:11.454]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:38:11.454]发送邮件失败
+[2020-03-19 11:38:16.452][DEBUG]运行宏1
+[2020-03-19 11:38:17.311]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:sunh0729@163.com;
+[2020-03-19 11:38:17.311]进行重试...
+[2020-03-19 11:38:17.311]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:38:17.311]发送邮件失败
+[2020-03-19 11:38:22.308][DEBUG]运行宏1
+[2020-03-19 11:38:23.449]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:sunh0729@163.com;
+[2020-03-19 11:38:23.449]进行重试...
+[2020-03-19 11:38:23.449]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:38:23.449]发送邮件失败
+[2020-03-19 11:38:28.451][DEBUG]运行宏1
+[2020-03-19 11:38:30.429]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:sunh0729@163.com;
+[2020-03-19 11:38:30.429]进行重试...
+[2020-03-19 11:38:30.429]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:38:30.429]发送邮件失败
+[2020-03-19 11:38:35.432][DEBUG]运行宏1
+[2020-03-19 11:38:50.263]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:sunh0729@163.com;
+[2020-03-19 11:38:50.263]进行重试...
+[2020-03-19 11:38:50.263]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:38:50.263]发送邮件失败
+[2020-03-19 11:38:55.268][DEBUG]运行结束
+[2020-03-19 11:39:07.047][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:39:08.153][DEBUG]运行宏1
+[2020-03-19 11:39:08.218]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:39:08.219] 【初始化】执行发送邮件。
+[2020-03-19 11:39:08.219]    读取收件人邮箱。
+[2020-03-19 11:39:08.221][DEBUG]运行宏1
+[2020-03-19 11:39:08.260]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:39:08.260]    读取需发送邮件的参数。
+[2020-03-19 11:39:08.262]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:39:08.262][DEBUG]运行宏1
+[2020-03-19 11:39:08.294]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:39:08.295]    运行记录存在。
+[2020-03-19 11:39:08.295]    根据参数内容发送邮件。
+[2020-03-19 11:39:08.296]    发送【无】数据邮件。
+[2020-03-19 11:39:08.296]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:39:08.297]    邮件附件存在。
+[2020-03-19 11:39:08.297] 【开始】执行发送邮件。
+[2020-03-19 11:39:09.003]    发送给中铁的两个附件。
+[2020-03-19 11:39:10.179]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:1052163211@qq.com
+[2020-03-19 11:39:10.179]进行重试...
+[2020-03-19 11:39:10.343]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 11:39:10.343]发送邮件失败
+[2020-03-19 11:39:15.346][DEBUG]运行宏1
+[2020-03-19 11:39:16.746]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:1052163211@qq.com
+[2020-03-19 11:39:16.746]进行重试...
+[2020-03-19 11:39:16.904]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 11:39:16.904]发送邮件失败
+[2020-03-19 11:39:21.908][DEBUG]运行宏1
+[2020-03-19 11:39:23.036]发送邮件开始, 发件人:malm@lingcai.cn, 收件人:1052163211@qq.com
+[2020-03-19 11:39:23.036]进行重试...
+[2020-03-19 11:39:23.206]server = zmail.server('malm@lingcai.cn', 'ma1052163211!', smtp_host='smtpdm.aliyun.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail('1052163211@qq.com', mail)
+[2020-03-19 11:39:23.206]发送邮件失败
+[2020-03-19 11:39:28.204][DEBUG]运行宏1
+[2020-03-19 11:39:30.275][DEBUG]运行结束
+[2020-03-19 11:39:40.983][DEBUG]运行宏2
+[2020-03-19 11:39:40.988]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 11:39:40.989]进行重试...
+[2020-03-19 11:39:42.086]发送邮件成功
+[2020-03-19 11:39:42.087][DEBUG]运行结束
+[2020-03-19 11:40:55.230][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:40:56.404][DEBUG]运行宏1
+[2020-03-19 11:40:56.451]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:40:56.451] 【初始化】执行发送邮件。
+[2020-03-19 11:40:56.451]    读取收件人邮箱。
+[2020-03-19 11:40:56.454][DEBUG]运行宏1
+[2020-03-19 11:40:56.483]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:40:56.483]    读取需发送邮件的参数。
+[2020-03-19 11:40:56.484]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:40:56.485][DEBUG]运行宏1
+[2020-03-19 11:40:56.512]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:40:56.514]    运行记录存在。
+[2020-03-19 11:40:56.514]    根据参数内容发送邮件。
+[2020-03-19 11:40:56.514]    发送【无】数据邮件。
+[2020-03-19 11:40:56.515]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:40:56.515]    邮件附件存在。
+[2020-03-19 11:40:56.516] 【开始】执行发送邮件。
+[2020-03-19 11:40:57.217]    发送给中铁的两个附件。
+[2020-03-19 11:40:58.247]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:40:58.247]进行重试...
+[2020-03-19 11:40:58.368]发送邮件成功
+[2020-03-19 11:41:03.375]    发送中铁的成功。
+[2020-03-19 11:41:03.376]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:41:03.377][DEBUG]运行结束
+[2020-03-19 11:43:30.727][DEBUG]UpdateMailAccounts
+[2020-03-19 11:43:39.293]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com
+[2020-03-19 11:43:39.293]进行重试...
+[2020-03-19 11:43:39.519]server = zmail.server('sunh0729@163.com', 'SH930729', smtp_host='smtp.163.com')
+mail = {'subject':'测试邮件','content_text':'这是一封测试邮件'}
+server.send_mail('sunh0729@163.com', mail)
+[2020-03-19 11:43:39.519]发送邮件失败
+[2020-03-19 11:45:00.893]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com
+[2020-03-19 11:45:00.893]进行重试...
+[2020-03-19 11:45:01.132]server = zmail.server('sunh0729@163.com', 'SH930729', smtp_host='smtp.163.com')
+mail = {'subject':'测试邮件','content_text':'这是一封测试邮件'}
+server.send_mail('sunh0729@163.com', mail)
+[2020-03-19 11:45:01.132]发送邮件失败
+[2020-03-19 11:45:58.340][DEBUG]运行宏1
+[2020-03-19 11:45:58.405]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:45:58.405] 【初始化】执行发送邮件。
+[2020-03-19 11:45:58.406]    读取收件人邮箱。
+[2020-03-19 11:45:58.408][DEBUG]运行宏1
+[2020-03-19 11:45:58.437]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:45:58.437]    读取需发送邮件的参数。
+[2020-03-19 11:45:58.439]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:45:58.439][DEBUG]运行宏1
+[2020-03-19 11:45:58.466]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:45:58.467]    运行记录存在。
+[2020-03-19 11:45:58.468]    根据参数内容发送邮件。
+[2020-03-19 11:45:58.468]    发送【无】数据邮件。
+[2020-03-19 11:45:58.468]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:45:58.469]    邮件附件存在。
+[2020-03-19 11:45:58.470] 【开始】执行发送邮件。
+[2020-03-19 11:46:00.979]    发送给中铁的两个附件。
+[2020-03-19 11:46:03.122]发送邮件开始, 发件人:18911411264@163.com, 收件人:18911411264@163.com
+[2020-03-19 11:46:03.122]进行重试...
+[2020-03-19 11:46:03.306]发送邮件成功
+[2020-03-19 11:46:08.307]    发送中铁的成功。
+[2020-03-19 11:46:08.308]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:46:08.309][DEBUG]运行结束
+[2020-03-19 11:53:23.786]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com
+[2020-03-19 11:53:23.786]进行重试...
+[2020-03-19 11:53:23.911]发送邮件成功
+[2020-03-19 11:53:39.266][DEBUG]UpdateMailAccounts
+[2020-03-19 11:54:40.269][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:55:10.544][DEBUG]PasteRows
+[2020-03-19 11:55:10.583][DEBUG]总代码行数:116
+[2020-03-19 11:55:29.359][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:55:32.676][DEBUG]运行宏1
+[2020-03-19 11:55:32.780]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:55:32.780] 【初始化】执行发送邮件。
+[2020-03-19 11:55:32.780]    读取收件人邮箱。
+[2020-03-19 11:55:32.783][DEBUG]运行宏1
+[2020-03-19 11:55:32.811]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:55:32.811]    读取需发送邮件的参数。
+[2020-03-19 11:55:32.812]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:55:32.813][DEBUG]运行宏1
+[2020-03-19 11:55:32.838]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:55:32.839]    运行记录存在。
+[2020-03-19 11:55:32.840]    根据参数内容发送邮件。
+[2020-03-19 11:55:32.840]    发送【无】数据邮件。
+[2020-03-19 11:55:32.841]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:55:32.841]    邮件附件存在。
+[2020-03-19 11:55:32.842] 【开始】执行发送邮件。
+[2020-03-19 11:55:33.647]    发送给中铁的两个附件。
+[2020-03-19 11:55:35.922]发送邮件开始, 发件人:1052163211@qq.com, 收件人:1052163211@qq.com
+[2020-03-19 11:55:35.922]进行重试...
+[2020-03-19 11:55:37.021]发送邮件成功
+[2020-03-19 11:55:42.013]    发送中铁的成功。
+[2020-03-19 11:55:42.014]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:55:42.015][DEBUG]运行结束
+[2020-03-19 11:56:23.975][DEBUG]总代码行数:115
+[2020-03-19 11:56:32.062][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:56:34.055][DEBUG]运行宏1
+[2020-03-19 11:56:34.122]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:56:34.123] 【初始化】执行发送邮件。
+[2020-03-19 11:56:34.123]    读取收件人邮箱。
+[2020-03-19 11:56:34.125][DEBUG]运行宏1
+[2020-03-19 11:56:34.152]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:56:34.152]    读取需发送邮件的参数。
+[2020-03-19 11:56:34.154]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:56:34.154][DEBUG]运行宏1
+[2020-03-19 11:56:34.181]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:56:34.183]    运行记录存在。
+[2020-03-19 11:56:34.183]    根据参数内容发送邮件。
+[2020-03-19 11:56:34.184]    发送【无】数据邮件。
+[2020-03-19 11:56:34.184]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:56:34.184]    邮件附件存在。
+[2020-03-19 11:56:34.185] 【开始】执行发送邮件。
+[2020-03-19 11:56:35.737]    发送给中铁的两个附件。
+[2020-03-19 11:56:38.449]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com
+[2020-03-19 11:56:38.449]进行重试...
+[2020-03-19 11:56:38.567]发送邮件成功
+[2020-03-19 11:56:43.562]    发送中铁的成功。
+[2020-03-19 11:56:43.563]>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2020-03-19 11:56:43.564][DEBUG]运行结束
+[2020-03-19 11:57:21.213][DEBUG]文件保存:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 11:57:23.364][DEBUG]运行宏1
+[2020-03-19 11:57:23.471]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 11:57:23.471] 【初始化】执行发送邮件。
+[2020-03-19 11:57:23.471]    读取收件人邮箱。
+[2020-03-19 11:57:23.474][DEBUG]运行宏1
+[2020-03-19 11:57:23.501]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 11:57:23.501]    读取需发送邮件的参数。
+[2020-03-19 11:57:23.503]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 11:57:23.503][DEBUG]运行宏1
+[2020-03-19 11:57:23.528]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 11:57:23.529]    运行记录存在。
+[2020-03-19 11:57:23.529]    根据参数内容发送邮件。
+[2020-03-19 11:57:23.530]    发送【无】数据邮件。
+[2020-03-19 11:57:23.530]    附件为汇总整理后的txt空文本。
+[2020-03-19 11:57:23.531]    邮件附件存在。
+[2020-03-19 11:57:23.531] 【开始】执行发送邮件。
+[2020-03-19 11:57:24.609]    发送给中铁的两个附件。
+[2020-03-19 11:57:26.746]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:57:26.746]进行重试...
+[2020-03-19 11:57:26.746]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:57:26.746]发送邮件失败
+[2020-03-19 11:57:31.750][DEBUG]运行宏1
+[2020-03-19 11:57:33.000]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:57:33.000]进行重试...
+[2020-03-19 11:57:33.000]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:57:33.000]发送邮件失败
+[2020-03-19 11:57:37.994][DEBUG]运行宏1
+[2020-03-19 11:57:39.271]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:57:39.271]进行重试...
+[2020-03-19 11:57:39.271]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:57:39.271]发送邮件失败
+[2020-03-19 11:57:44.265][DEBUG]运行宏1
+[2020-03-19 11:57:45.647]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:57:45.647]进行重试...
+[2020-03-19 11:57:45.647]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:57:45.647]发送邮件失败
+[2020-03-19 11:57:50.643][DEBUG]运行宏1
+[2020-03-19 11:58:07.789]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:58:07.789]进行重试...
+[2020-03-19 11:58:07.789]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:58:07.789]发送邮件失败
+[2020-03-19 11:58:12.790][DEBUG]运行宏1
+[2020-03-19 11:58:13.864]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:58:13.864]进行重试...
+[2020-03-19 11:58:13.864]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:58:13.864]发送邮件失败
+[2020-03-19 11:58:18.857][DEBUG]运行宏1
+[2020-03-19 11:58:20.977]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:58:20.977]进行重试...
+[2020-03-19 11:58:20.977]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:58:20.977]发送邮件失败
+[2020-03-19 11:58:25.980][DEBUG]运行宏1
+[2020-03-19 11:58:26.756]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:58:26.756]进行重试...
+[2020-03-19 11:58:26.756]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:58:26.756]发送邮件失败
+[2020-03-19 11:58:31.763][DEBUG]运行宏1
+[2020-03-19 11:58:33.166]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 11:58:33.166]进行重试...
+[2020-03-19 11:58:33.166]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 11:58:33.166]发送邮件失败
+[2020-03-19 11:58:38.166][DEBUG]运行宏1
+[2020-03-19 11:58:47.346][DEBUG]运行结束
+[2020-03-19 12:17:54.993]--------------------RPA 编辑器 退出 --------------------
+[2020-03-19 12:17:55.065]--------------------Python模块 退出 --------------------
+[2020-03-19 12:18:36.491]--------------------RPA 编辑器 启动 --------------------
+[2020-03-19 12:18:36.491]当前版本1.5.4
+[2020-03-19 12:18:37.412][DEBUG]参数 D:\RPA\codes\rpa_code\1_email\email.rpa
+
+[2020-03-19 12:18:37.480][DEBUG]文件打开:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 12:18:37.528][DEBUG]总代码行数:115
+[2020-03-19 12:18:58.656][DEBUG]运行宏1
+[2020-03-19 12:18:58.704]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-03-19 12:18:58.704] 【初始化】执行发送邮件。
+[2020-03-19 12:18:58.705]    读取收件人邮箱。
+[2020-03-19 12:18:58.707][DEBUG]运行宏1
+[2020-03-19 12:18:58.732]    收件人邮箱为：【1052163211@qq.com;sunh0729@163.com;】【1052163211@qq.com>sunh0729@163.com;】
+[2020-03-19 12:18:58.733]    读取需发送邮件的参数。
+[2020-03-19 12:18:58.734]    内容为：0@D:\RPA\summary_data\20200318_20200318\网银明细-20200318-﻿2-02.txt
+[2020-03-19 12:18:58.735][DEBUG]运行宏1
+[2020-03-19 12:18:58.760]    读取需发送邮件附件2,执行结果记录的路径。
+[2020-03-19 12:18:58.761]    运行记录存在。
+[2020-03-19 12:18:58.761]    根据参数内容发送邮件。
+[2020-03-19 12:18:58.762]    发送【无】数据邮件。
+[2020-03-19 12:18:58.762]    附件为汇总整理后的txt空文本。
+[2020-03-19 12:18:58.763]    邮件附件存在。
+[2020-03-19 12:18:58.763] 【开始】执行发送邮件。
+[2020-03-19 12:19:00.112]    发送给中铁的两个附件。
+[2020-03-19 12:19:01.755]发送邮件开始, 发件人:sunh0729@163.com, 收件人:sunh0729@163.com;
+[2020-03-19 12:19:01.755]进行重试...
+[2020-03-19 12:19:01.756]--------------------Python模块 启动 --------------------
+[2020-03-19 12:19:01.835]server = zmail.server('sunh0729@163.com', 'HQZQMGNTIVTYLGTA', smtp_host='smtp.163.com')
+mail = {'subject':'【银行系统】RPA处理结果','content_text':'本次转换明细为【0】条，文档内容为空！','attachments':['D:\\RPA\\summary_data\\20200318_20200318\\网银明细-20200318-﻿2-02.txt']}
+server.send_mail(, mail)
+[2020-03-19 12:19:01.835]发送邮件失败
+[2020-03-19 12:19:06.824][DEBUG]运行宏1
+[2020-03-19 12:19:47.224][DEBUG]运行结束
+[2020-03-19 12:23:08.663]--------------------RPA 编辑器 退出 --------------------
+[2020-03-19 12:23:08.722]--------------------Python模块 退出 --------------------
+[2020-03-19 12:23:41.417]--------------------RPA 编辑器 启动 --------------------
+[2020-03-19 12:23:41.417]当前版本1.5.4
+[2020-03-19 12:23:42.365][DEBUG]参数 D:\RPA\codes\rpa_code\1_email\email.rpa
+
+[2020-03-19 12:23:42.432][DEBUG]文件打开:D:\RPA\codes\rpa_code\1_email\email.rpa
+[2020-03-19 12:23:42.472][DEBUG]总代码行数:115
+[2020-03-19 12:23:45.846]--------------------RPA 编辑器 退出 --------------------

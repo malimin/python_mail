@@ -1,0 +1,5 @@
+﻿[PMC Code v1.5.4]|||1|Window,2,Fast,0,1,Input,-1,-1,20|1|Macro1
+Groups=开始:1
+1|IniRead|aa, python_email.ini, aaa, bbb|1|0|IniRead|||||
+2|[MsgBox]|% aa|1|0|MsgBox|0||||
+

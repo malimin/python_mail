@@ -1,0 +1,80 @@
+﻿[PMC Code v1.5.4]|||1|Window,2,Fast,0,1,Input,-1,-1,20|1|Macro1
+Groups=Start:1
+1|LogInfo|_null := "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"|1|0|Function|||||
+2|LogInfo|_null := " 【初始化】执行发送邮件。"|1|0|Function|||||
+3|LogInfo|_null := "    读取收件人邮箱。"|1|0|Function|||||
+4|FileRead|address, D:\RPA\setting\email.txt|1|0|FileRead|||||
+5|RegExReplace|address := address,"[\s]+",""|1|0|Function|||||
+6|LogInfo|_null := "    收件人邮箱为：%address%"|1|0|Function|||||
+7|LogInfo|_null := "    读取需发送邮件的参数。"|1|0|Function|||||
+8|FileRead|email_data, D:\RPA\codes\rpa_code\1_setting\email_data.txt|1|0|FileRead|||||
+9|RegExReplace|email_data := email_data,"[\s]+",""|1|0|Function|||||
+10|LogInfo|_null := "    内容为：%email_data%"|1|0|Function|||||
+11|[LoopStart]|email_data`, @`, |1|0|LoopParse|||||
+12|Compare Variables|A_Index = 1|1|0|If_Statement|||||
+13|[Assign Variable]|email_type := %A_Loopfield%|1|0|Variable|||||
+14|[End If]|EndIf|1|0|If_Statement|||||
+15|Compare Variables|A_Index = 2|1|0|If_Statement|||||
+16|[Assign Variable]|email_attach := %A_Loopfield%|1|0|Variable|||||
+17|[End If]|EndIf|1|0|If_Statement|||||
+18|[LoopEnd]|LoopEnd|1|0|Loop|||||
+19|LogInfo|_null := "    根据参数内容发送邮件。"|1|0|Function|||||
+20|Compare Variables|email_type == 0|1|0|If_Statement|||||
+21|LogInfo|_null := "    发送【无】数据邮件。"|1|0|Function|||||
+22|[Assign Variable]|email := 本次转换明细为【0】条，文档内容为空！|1|0|Variable|||||
+23|LogInfo|_null := "    附件为汇总整理后的txt空文本。"|1|0|Function|||||
+24|If File Exist|%email_attach%|1|0|If_Statement|||||
+25|LogInfo|_null := "    邮件附件存在。"|1|0|Function|||||
+26|[Else]|Else|1|0|If_Statement|||||
+27|LogInfo|_null := "    邮件附件不存在。"|1|0|Function|||||
+28|[Assign Variable]|email_attach := |1|0|Variable|||||
+29|[End If]|EndIf|1|0|If_Statement|||||
+30|[End If]|EndIf|1|0|If_Statement|||||
+31|Compare Variables|email_type > 0|1|0|If_Statement|||||
+32|LogInfo|_null := "    发送【有】数据邮件，条数：【%email_type%】。"|1|0|Function|||||
+33|[Assign Variable]|email := 本次转换明细为【%email_type%】条，请查收附件！|1|0|Variable|||||
+34|LogInfo|_null := "    附件为汇总整理后的txt文本。"|1|0|Function|||||
+35|If File Exist|%email_attach%|1|0|If_Statement|||||
+36|LogInfo|_null := "    邮件附件存在。"|1|0|Function|||||
+37|[Else]|Else|1|0|If_Statement|||||
+38|LogInfo|_null := "    邮件附件不存在。"|1|0|Function|||||
+39|[Assign Variable]|email_attach := |1|0|Variable|||||
+40|[End If]|EndIf|1|0|If_Statement|||||
+41|[End If]|EndIf|1|0|If_Statement|||||
+42|Compare Variables|email_type == -1|1|0|If_Statement|||||
+43|LogInfo|_null := "    发送【错误】数据邮件。"|1|0|Function|||||
+44|[Assign Variable]|email := 文件已损坏，无法完成数据转换！|1|0|Variable|||||
+45|LogInfo|_null := "    附件为本次下载的文件。"|1|0|Function|||||
+046|[Assign Variable]|email_attach := D:\RPA\download\%email_attach%\银行账户明细表.xls|1|0|Variable|||||
+47|[Assign Variable]|email_attach := D:\RPA\download\%email_attach%|1|0|Variable|||||
+048|[MsgBox]|%email_attach%|1|0|MsgBox|0||||
+49|RunWait|C:\Program Files\Bandizip\Bandizip.exe a %email_attach%.zip %email_attach%\|1|0|RunWait|||||
+050|[MsgBox]|%email_attach%|1|0|MsgBox|0||||
+51|[Assign Variable]|email_attach := %email_attach%.zip|1|0|Variable|||||
+052|[MsgBox]|%email_attach%|1|0|MsgBox|0||||
+53|If File Exist|%email_attach%|1|0|If_Statement|||||
+54|LogInfo|_null := "    邮件附件存在。"|1|0|Function|||||
+55|[Else]|Else|1|0|If_Statement|||||
+56|LogInfo|_null := "    邮件附件不存在。"|1|0|Function|||||
+57|[Assign Variable]|email_attach := |1|0|Variable|||||
+58|[End If]|EndIf|1|0|If_Statement|||||
+59|[End If]|EndIf|1|0|If_Statement|||||
+60|LogInfo|_null := " 【开始】执行发送邮件。"|1|0|Function|||||
+61|[Assign Variable]|IsSucess := 0|1|0|Variable|Expression||||
+62|[Assign Variable]|i := 0|1|0|Variable|||||
+063|[MsgBox]|%IsSucess%|1|0|MsgBox|0||||
+64|[LoopStart]|%i% < 1|1|0|While|||||
+065|[MsgBox]|进入循环|1|0|MsgBox|0||||
+66|18911411264@163.com|【G6系统】RPA处理结果=0:%email%|1|0|SendEmail|To=%address%/CC=/BCC=|%email_attach%|||
+67|[Pause]||1|3000|Sleep|||||
+68|Compare Variables|IsSucess == 1|1|0|If_Statement|||||
+69|[Assign Variable]|i := 10|1|0|Variable|||||
+70|LogInfo|_null := "    发送成功。"|1|0|Function|||||
+71|[End If]|EndIf|1|0|If_Statement|||||
+72|[LoopEnd]|LoopEnd|1|0|Loop|||||
+073|[MsgBox]|%IsSucess%|1|0|MsgBox|0||||
+74|Compare Variables|email_type == -1|1|0|If_Statement|||||
+75|FileDelete|%email_attach%|1|0|FileDelete|||||
+76|[End If]|EndIf|1|0|If_Statement|||||
+77|LogInfo|_null := ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"|1|0|Function|||||
+
