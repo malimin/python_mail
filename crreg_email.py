@@ -109,7 +109,7 @@ def str_to_list(old_str):
     return new_list
 
 
-def sent_email():
+def send_email():
     """发送邮件"""
     #设置邮件内容
     mail_content={
@@ -141,4 +141,4 @@ if __name__ == '__main__':
     read_message()
     # read_email_data()
     # read_record_path()
-    # sent_email()
+    # send_email()
