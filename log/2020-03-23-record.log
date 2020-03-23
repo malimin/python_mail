@@ -1,0 +1,19 @@
+2020-03-23 Monday 16:30:50 python_email.py[line:109] INFO ：=============开始邮件处理部分=============
+2020-03-23 Monday 16:30:50 python_email.py[line:110] INFO ：开始读取邮件配置信息
+2020-03-23 Monday 16:30:50 python_email.py[line:135] INFO ：取配置文件中【发件人】选项中的
+【发件人邮箱】1052163211@qq.com
+【发件人密码】aumisagqwyfabcaf
+【smtp_port】smtp.qq.com
+【smtp_host】25
+【smtp_ssl】False
+2020-03-23 Monday 16:30:50 python_email.py[line:150] INFO ：读取配置文件中邮件的内容
+【收件人】1052163211@qq.com
+【抄送人】None
+【主题】主题内容
+【正文】这就是正文内容
+【附件】['C:\\code\\python_mail\\第1次执行结果统计.txt', 'C:\\code\\python_mail\\第1次执行结果统计 - 副本.txt']
+2020-03-23 Monday 16:30:50 python_email.py[line:154] INFO ：开始发送邮件
+2020-03-23 Monday 16:30:57 python_email.py[line:49] INFO ：发送成功！
+2020-03-23 Monday 16:30:57 python_email.py[line:157] INFO ：=============邮件处理部分结束=============
+
+
