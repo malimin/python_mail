@@ -2,6 +2,7 @@
 # Create by MaLimin
 # Create on 2020/3/20
 
+# 转换
 import base64
 def pic_to_base64(pic_path = None):
     """
